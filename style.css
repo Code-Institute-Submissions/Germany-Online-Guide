@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
+.body-bg {
+    background-image: linear-gradient(to right, #1A1919, #01AED9, #01BCEA, #01BCEA, #01AED9, #1A1919);
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+/*-------------------------------------------------Navbar-------------------------------------------------*/
+
+/*-------------------------Logo-------------------------*/
+
+.german-flag-logo {
+    height: 80px;
+    background: linear-gradient(black 27.3%, red 43.3%, gold 75.7%);
+    border-radius: 5px;
+    z-index: 1;
+
+}
+
+.german-flag-logo-text {
+    text-align: center;
+    color: Aliceblue;
+    margin-top: 28px;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    text-shadow: 1.5px 1.5px 1.5px #E6E6FA;
+    text-decoration: none;
+    z-index: 1;
+
+}
+
+.german-flag-logo-text:hover {
+    color: #5EB9FE;
+    transition: 0.2s ease-in-out;
+    z-index: 1;
+
+}
+
+/*-------------------------Menu Items-------------------------*/
+
+.menuitem {
+    display: inline;
+    text-align: center;
+    z-index: 1;
+}
+
+.hvr-rectangle-out {
+    padding: 29px 95px;
+    z-index: 1;
+
+}
+
+.menu-color-home {
+    background-color: rgba(0, 250, 154, 0.8);
+    z-index: 1;
+
+}
+
+.menu-color-places {
+    background-color: rgba(0, 191, 255, 0.8);
+    z-index: 1;
+
+}
+
+.menu-color-hotels {
+    background-color: rgba(210, 105, 30, 0.8);
+    padding: 29px 92.5px;
+    z-index: 1;
+}
+
+.menu-color-contacts {
+    background-color: rgba(255, 222, 173, 0.8);
+    padding: 29px 87px;
+    z-index: 1;
+}
+
+/*-------------------------------------------------Carousel-------------------------------------------------*/
+
+.carouselSize {
+    width: 100%;
+    height: 800px;
+}
+
+/*-------------------------------------------------Text 1-------------------------------------------------*/
+
+.why-travel-to-germany-heading {
+    text-align: center;
+    color: black;
+    font-family: 'Merriweather', serif;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.why-travel-to-germany-p {
+    text-align: center;
+    white-space: pre-wrap;
+    color: black;
+    font-family: 'Merriweather', serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.why-travel-to-germany-bg {
+    position: relative;
+    top: 20px;
+    width: 100%;
+    height: 330px;
+    border-radius: 10px;
+    background-image: linear-gradient(rgba(229, 228, 228, 0.9), rgba(151, 150, 150, 0.3), rgba(229, 228, 228, 0.9));
+}
+
+
+.fa-arrow-down {
+    margin: 10px 50%;
+    font-size: 50px;
+    color: rgba(240, 248, 255, 0.9);
+}
+
+/*-------------------------------------------------Text 2-------------------------------------------------*/
+
+.the-german-culture-and-traditions-heading {
+    text-align: center;
+    color: black;
+    font-family: 'Merriweather', serif;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.the-german-culture-and-traditions-p {
+    text-align: center;
+    white-space: pre-wrap;
+    color: black;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.the-german-culture-and-traditions-bg {
+    position: relative;
+    top: 20px;
+    width: 100%;
+    height: 320px;
+    background-image: linear-gradient(rgba(229, 228, 228, 0.9), rgba(151, 150, 150, 0.3), rgba(229, 228, 228, 0.9));
+    border-radius: 10px;
+}
+
+/*-------------------------------------------------Text 3-------------------------------------------------*/
+
+.the-german-language {
+    text-align: center;
+    color: black;
+    font-family: 'Merriweather', serif;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.the-german-language-p {
+    text-align: center;
+    white-space: pre-wrap;
+    color: black;
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.the-german-language-bg {
+    position: relative;
+    margin-top: 40px;
+    width: 100%;
+    height: 280px;
+    background-image: linear-gradient(rgba(229, 228, 228, 0.9), rgba(151, 150, 150, 0.3), rgba(229, 228, 228, 0.9));
+    border-radius: 10px;
+}
+
+/*-------------------------------------------------Audio-------------------------------------------------*/
+
+.audio1-heading {
+    text-align: center;
+    color: AliceBlue;
+}
+
+.audio-file1 {
+    position: relative;
+    margin-left: 99px;
+    width: 1240px;
+    height: 60px;
+    background-image: linear-gradient(black, #262626);
+    border-radius: 50px;
+}
+
+/*-------------------------------------------------Videos-------------------------------------------------*/
+
+.germany-video1-heading {
+    text-align: center;
+    margin-left: 50px;
+    color: AliceBlue;
+}
+
+.germany-video1 {
+    top: 50px;
+}
+
+.germany-video2-heading {
+    text-align: center;
+    margin-left: -60px;
+    color: AliceBlue;
+}
+
+.germany-video2 {
+    
+}
+
+.language-video-heading {
+    text-align: center;
+    color: AliceBlue;
+}
+
+.germany-video3 {
+    margin-bottom: 0;
+}
+
+/*-------------------------------------------------Footer-------------------------------------------------*/
+
+.footer-bg {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(black, #262626);
+}
+
+.footer-pictures {
+    text-align: left;
+    color: AliceBlue;
+    text-decoration: none;
+}
+
+.footer-contacts {
+    text-align: left;
+    color: AliceBlue;
+    text-decoration: none;
+}
+
+.general-sub {
+    color: AliceBlue;
+}
+
+/*-------------------------------------------------Media Queries-------------------------------------------------*/
+
+@media (max-width: 1399px) {
+
+    /*--------------------------Navbar--------------------------*/
+    .hvr-rectangle-out {
+        padding: 29px 40px;
+    }
+
+    .menu-color-home {
+        background-color: rgba(0, 250, 154, 0.8);
+        padding: 29px 50px;
+    }
+
+    .menu-color-places {
+        background-color: rgba(0, 191, 255, 0.8);
+        padding: 29px 46.3px;
+
+    }
+
+    .menu-color-hotels {
+        background-color: rgba(210, 105, 30, 0.8);
+        padding: 29px 43.3px;
+
+    }
+
+    .menu-color-contacts {
+        background-color: rgba(255, 222, 173, 0.8);
+        padding: 29px 40px;
+    }
+
+    /*--------------------------Audio File--------------------------*/
+    .audio1-heading {
+        margin-top: 500px;
+        text-align: center;
+        color: AliceBlue;
+    }
+
+    .audio-file1 {
+        position: relative;
+        margin-left: 99px;
+        width: 820px;
+        height: 60px;
+        background-image: linear-gradient(black, #262626);
+        border-radius: 50px;
+    }
+    /*--------------------------Videos--------------------------*/
+    .videos-bg {
+        background-image: linear-gradient(to right, #1A1919, #01AED9, #01BCEA, #01BCEA, #01AED9, #1A1919);
+        width: 100%;
+        height: 1260px;
+    }
+
+    .germany-video1-heading {
+        text-align: center;
+        display: block;
+        margin-right: 40px;
+        color: AliceBlue;
+    }
+
+    .germany-video1 {
+        display: block;
+
+    }
+
+    .germany-video2-heading {
+        text-align: center;
+        display: block;
+        margin-left: 10px;
+        color: AliceBlue;
+    }
+
+    .germany-video2 {
+        display: block;
+    }
+
+    .language-video-heading {
+        display: block;
+        text-align: center;
+        margin-left: 10px;
+        color: AliceBlue;
+    }
+    .germany-video3 {
+        display: block;
+        margin-bottom: 0;
+    }
+}
+
+/*--------------------------Footer--------------------------*/
+
+.footer-bg {
+    position: relative;
+    top: 500px;
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(black, #262626);
+}

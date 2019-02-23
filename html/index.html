@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css" type="text/css" />
+    <title>Germany Online Guide</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <span class="navbar-brand theNavbrand navcolor">Germany Online Guide</span>
+
+            <div class="collapse navbar-collapse" id="collapse_target">
+
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link hvr-rectangle-out active">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="media.html" class="nav-link hvr-rectangle-out">Media</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link hvr-rectangle-out">Hotels</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link hvr-rectangle-out dropdown-toggle" data-toggle="dropdown">Contacts</a>
+                        <ul class="dropdown-menu dropdown-menu-color">
+                            <li class="nav-item hvr-rectangle-out"><a class="nav-drop" href="emergency-contacts.html">Emergency Contacts</a></li>
+                            <li class="nav-item hvr-rectangle-out"><a class="nav-drop" href="https://www.twitter.com" target="_blank">Twitter</a></li>
+                            <li class="nav-item hvr-rectangle-out"><a class="nav-drop" href="https://www.facebook.com" target="_blank">Facebook</a></li>
+                            <li class="nav-item hvr-rectangle-out"><a class="nav-drop" href="https://www.instagram.com" target="_blank">Instagram</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <article>
+        <section>
+            <div class="banner">
+                <img class="bannerPic img-fluid mx-auto d-block" alt="Responsive image" src="../assets/images/frankf.jpg"></img>
+                <div class="col text-center align-items-center">
+                    <h1 class="bannerHeading">Discover Germany</h1>
+                    <div class="arrowDown"><span><i class="fa fa-arrow-down"></i></span></div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 the-german-culture-and-traditions-bg the-german-culture-and-traditions-bg-m">
+                        <div class="col-xs-12 col-lg-3">
+                            <img class="text-img" src="../assets/images/germany-map-flag.png" class="img-circled"></img>
+                        </div>
+                        <div class="col-xs-12 col-lg-auto">
+                            <h5 class="the-german-culture-and-traditions-heading uppercase">About Germany.</h5>
+                            <p class="the-german-culture-and-traditions-p">Germany has a population of higher than 80 million, therefore being the second most populated country in Europe. <br>It is said that 91.5% Germans live in Germany, while the second highest ethnic group is Turkish at 2.4%.German
+                                is mostly spoken in West Germany and is an official language in Switzerland and Austria. It is probably the sixth most spoken language in the world and is spoken by around 90 million people. Moreover, there are different
+                                dialects, for instance High German (Hochdeutsch) and Middle German. High German was spoken before Middle German was spoken in 1100AD. <span id="dots"></span><span id="more">Middle German is the language that the Bible was translated in by Martin Luther. The modern high German dialects that descends
+                        from the old Middle German dialects, is mostly spoken in the central and southern areas of Germany, Austria and Switzerland. Other dialects are Low German, which is still spoken in some nothern areas, Alemannic dialect, which comes
+                        from High German and Yiddish, which was spoken by German Jews since the middle ages and also comes from High German.</span> <button onclick="myFunction()" id="thereadButton">Read more</button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container-fluid">
+            <div class="row">
+                <div class="col blueSectionBG">
+                    <h1 class="travel-highlights-heading">Travel Highlights</h1>
+                    <div class="row justify-content-around">
+                        <div class="col-xs-12 col-md-5">
+                            <div class="col-12 food-carousel-BGbox foodtext">
+                                <h4>Traditional German Food</h4>
+                                <p>Enjoy a variety of tradional german food from different regions of Germany. Savor the healthy german asparaus soup, the Frankfurter Grüne Soße, the Käsespätzle and more!</p>
+                            </div>
+                            <div id="food-slider" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#food-slider" data-slide-to="0" class="active"></li>
+                                    <li data-target="#food-slider" data-slide-to="1"></li>
+                                    <li data-target="#food-slider" data-slide-to="2"></li>
+                                    <li data-target="#food-slider" data-slide-to="3"></li>
+                                    <li data-target="#food-slider" data-slide-to="4"></li>
+                                    <li data-target="#food-slider" data-slide-to="5"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active foodCarouselSize">
+                                        <img class="d-block w-100 food-image-sizes" src="../assets/images/Food/asparagus-soup.jpeg" alt="First slide picture">
+                                        <div class="carousel-caption">
+                                            <h1 class="carouselHeadings">Asparagous Soup</h1>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item foodCarouselSize">
+                                        <img class="d-block w-100 food-image-sizes" src="../assets/images/Food/kaesespaetzle.jpg" alt="Second slide picture">
+                                        <div class="carousel-caption">
+                                            <h1 class="carouselHeadings">Käsespätzle</h1>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item foodCarouselSize">
+                                        <img class="d-block w-100 food-image-sizes" src="../assets/images/Food/kartoffelpuffer.jpeg" alt="Third slide picture">
+                                        <div class="carousel-caption">
+                                            <h1 class="carouselHeadings">Kartoffelpuffer</h1>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item foodCarouselSize">
+                                        <img class="d-block w-100 food-image-sizes" src="../assets/images/Food/frankfurter-gruene-sosse.jpeg" alt="Fourth slide picture">
+                                        <div class="carousel-caption">
+                                            <h1 class="carouselHeadings">Frankfurter Grüne Soße</h1>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item foodCarouselSize">
+                                        <img class="d-block w-100 food-image-sizes" src="../assets/images/Food/schupfnudeln.jpeg" alt="Fifth slide picture">
+                                        <div class="carousel-caption">
+                                            <h1 class="carouselHeadings">Schupfnuddeln</h1>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item foodCarouselSize">
+                                        <img class="d-block w-100 food-image-sizes" src="../assets/images/Food/obatzter.jpg" alt="Sixth slide picture">
+                                        <div class="carousel-caption">
+                                            <h1 class="carouselHeadings">Obatzter Spread</h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-md-5">
+                            <div class="col-12 culture-carousel-BGbox culturetext">
+                                <div id="cultureSlider" class="carousel slide" data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#cultureSlider" data-slide-to="0" class="active"></li>
+                                        <li data-target="#cultureSlider" data-slide-to="1"></li>
+                                        <li data-target="#cultureSlider" data-slide-to="2"></li>
+                                        <li data-target="#cultureSlider" data-slide-to="3"></li>
+                                        <li data-target="#cultureSlider" data-slide-to="4"></li>
+                                        <li data-target="#cultureSlider" data-slide-to="5"></li>
+                                        <li data-target="#cultureSlider" data-slide-to="6"></li>
+                                    </ol>
+
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active cultureCarouselSize">
+                                            <img class="d-block w-100 culture-image-sizes" src="../assets/images/culture/goethe-house.jpg" alt="First slide picture"></img>
+                                            <div class="carousel-caption">
+                                                <h1 class="carouselHeadings">Goethe House</h1>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item cultureCarouselSize">
+                                            <img class="d-block w-100 culture-image-sizes" src="../assets/images/culture/mozart.jpg" alt="Second slide picture"></img>
+                                            <div class="carousel-caption">
+                                                <h1 class="carouselHeadings">Mozart</h1>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item cultureCarouselSize">
+                                            <img class="d-block w-100 culture-image-sizes" src="../assets/images/culture/beethoven.jpeg" alt="Second slide picture"></img>
+                                            <div class="carousel-caption">
+                                                <h1 class="carouselHeadings">Ludwig van Beethoven</h1>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item cultureCarouselSize">
+                                            <img class="d-block w-100 culture-image-sizes" src="../assets/images/culture/RichardWagner.jpg" alt="Second slide picture"></img>
+                                            <div class="carousel-caption">
+                                                <h1 class="carouselHeadings">Richard Wagner</h1>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item cultureCarouselSize">
+                                            <img class="d-block w-100 culture-image-sizes" src="../assets/images/culture/frankfurt-architecture.jpeg" alt="Second slide picture"></img>
+                                            <div class="carousel-caption">
+                                                <h1 class="carouselHeadings">Frankfurt Architecture</h1>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item cultureCarouselSize">
+                                            <img class="d-block w-100 culture-image-sizes" src="../assets/images/culture/hamburg-altstadt.JPG" alt="Second slide picture"></img>
+                                            <div class="carousel-caption">
+                                                <h1 class="carouselHeadings">Hamburg Altstadt</h1>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item cultureCarouselSize">
+                                            <img class="d-block w-100 culture-image-sizes" src="../assets/images/culture/terrassenufer-dresden.jpg" alt="Second slide picture"></img>
+                                            <div class="carousel-caption">
+                                                <h1 class="carouselHeadings">Dresden, Terrassenufer</h1>
+                                            </div>
+                                        </div>
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#cultureSlider" data-slide-to="0" class="active"></li>
+                                            <li data-target="#cultureSlider" data-slide-to="1"></li>
+                                            <li data-target="#cultureSlider" data-slide-to="2"></li>
+                                            <li data-target="#cultureSlider" data-slide-to="3"></li>
+                                            <li data-target="#cultureSlider" data-slide-to="4"></li>
+                                            <li data-target="#cultureSlider" data-slide-to="5"></li>
+                                            <li data-target="#cultureSlider" data-slide-to="6"></li>
+                                        </ol>
+                                    </div>
+                                </div>
+                                <h4 class="cultureHeading">Learn About German Culture and History!</h4>
+                                <span>There were many popular german composer, like Wolfgang Amadeus Mozart, Ludwig van Beethoven and Richard Wagner. Furthermore, there is lots of architecture
+                        from a wide variety of time periods and famous houses, in which poets, such as the Goethe used to live in.</span>
+                            </div>
+                        </div>
+                        <!--<div class=" row justify-content-around">
+                    <div class="col-5 foodCarouselText">
+                        <p>hi</p>
+                    </div>
+
+                    <div class="col-5 foodCarouselText">
+                        <p>hi</p>
+                    </div>
+                </div>-->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 why-travel-to-germany-bg">
+                        <div class="col-xs-12 col-lg-3">
+                            <img src="../assets/images/img1.jpeg" class="text-img img-thumbnail"></img>
+                        </div>
+                        <div class="col-xs-12 col-lg-auto">
+                            <h4 class="why-travel-to-germany-heading uppercase">Why Travel To Germany?</h4>
+                            <p class="why-travel-to-germany-p">Discover historical, big, breathtaking places in Germany and learn about the german culture and traditions!
+                                <br>Explore the famous castles with beautiful stories behind them, learn about the development of their cities and cars, and visit historcal places, like the <b>Berlin Wall</b>, and enjoy famous events, such the <b>christmasmarkets</b>!
+                                <br>Furthermore, enjoy the wide range of international entertainment in Frankfurt on the streets, theatres and restaurants throughout the big city. Another example of an interesting city is Hamburg, where one could have
+                                fun doing things like sportif beach games or visiting the 'Kunsthalle' (Art hall).
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--<div class="col-xs-12 the-german-language-bg">
+            <div class="col-xs-12 col-lg-3">
+                <img class="text-img" src=""></img>
+            </div>
+            <div class="col-xs-12 col-lg-auto">
+                <h4 class="the-german-language uppercase"></h4>
+                <p class="the-german-language-p">
+                    
+                </p>
+            </div>
+        </div>
+        <div class="col-xs-12 the-german-culture-and-traditions-bg the-german-culture-and-traditions-bg-m">
+            <div class="col-xs-12 col-lg-3">
+                <img class="hamb-text-img" src="../assets/images/Hamburg.jpg"></img>
+            </div>
+            <div class="col-xs-12 col-lg-auto">
+                <h4 class="the-german-culture-and-traditions-heading uppercase"></h4>
+                <p class="the-german-culture-and-traditions-p">
+                    
+                </p>
+            </div>
+        </div>-->
+            </div>
+        </section>
+        <section>
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <h1>Informations</h1>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col-xs-12 col-md-4">
+                        <div class="eatBox">
+                            <div class="row justify-content-around">
+                                <i class="fa fa-utensils" aria-hidden="true"></i>
+                            </div>
+                            <div class="row justify-content-center">
+                                <h3 class="restaurants-heading">Popular Restaurants</h3>
+                                <p class="tourText">Find international restaurants and try out the food that is famous in Germany! For instance, Kebab restaurants are very popular there, and another restaurant called "Nordsee" sells various types of fish with rice, salads,
+                                    potatoes, mushrooms and more things that make them taste delicious. Find out more <a href="https://www.tripadvisor.com/Restaurants-g187275-Germany.html" target="_blank">here!</a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-md-4">
+                        <div class="shopBox">
+                            <div class="row justify-content-center">
+                                <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                            </div>
+                            <div class="row justify-content-center">
+                                <h3 class="shop-heading">Shopping Streets</h3>
+                                <p class="tourText">Go for a shopping tour in big shopping streets of Germany, for example at Zeil in Frankfurt, Königsalle in Düsseldorf, or the Ku'damm in Berlin. There you could find lots of clothes, restaurants, souvenirs, entertainment
+                                    and more to have a good time and get the things you like! Find out more <a href="https://www.tripadvisor.com/Restaurants-g187275-Germany.html" target="_blank">here!</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-4">
+                        <div class="tourBox">
+                            <div class="row justify-content-center">
+                                <i class="fa fa-bus" aria-hidden="true"></i>
+                            </div>
+                            <div class="row justify-content-center">
+                                <h3 class="tour-heading">Tours</h3>
+                                <p class="tourText">Germany is a big country with loads of touristic attractions, which you should not miss out on! Therefore, a popular way to travel through Germany is using Flixbus! With Flixbus, you could discover Germany on comfortable
+                                    seats, while using wifi at low costs! So, book a ride <a href="https://global.flixbus.com/?wt_mc=acq.com.FlixBus.sea-brand.google.3799800904.225692665_15920502505.ad&wt_cc1=branded&wt_cc5=flixbus&gclid=Cj0KCQiAtbnjBRDBARIsAO3zDl9Wr0AIXo1FmY2aEMGsECdYb4kRzykVPnwBZlqY6aHj5xaMoQgrOGMaAiNJEALw_wcB"
+                                        target="_blank">here!</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </article>
+
+    <!-----------------------------------------------------------------------------Footer----------------------------------------------------------------------------->
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="footer-bg">
+                <div class="col-6">
+                    <h3 class="uppercase general-sub">Gallery</h3>
+                    <a href="index.html">
+                        <p class="footer-pictures">Click Here for Pictures!</p>
+                    </a>
+                </div>
+                <div class="col-6">
+                    <h3 class="uppercase general-sub">Emergency Numbers</h3>
+                    <a href="index.html">
+                        <p class="footer-contacts">Contacts</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function myFunction() {
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var btnText = document.getElementById("thereadButton");
+
+            if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Read more";
+                moreText.style.display = "none";
+            }
+            else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Read less";
+                moreText.style.display = "inline";
+            }
+        }
+    </script>
+
+    <script type="text/javascript" src="../assets/js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

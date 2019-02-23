@@ -1,0 +1,1413 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
+
+
+/*-------------------------------------------------Navbar-------------------------------------------------*/
+
+/*-------------------------Logo-------------------------*/
+
+.header-bg {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+}
+
+.header-bg:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.navBG {
+    margin-bottom: 0px;
+    opacity: 0.5;
+}
+
+.dropdown-menu-color {
+    background-color: #343a40!important;
+    margin: 0px;
+}
+
+.hvr-rectangle-out {
+    background-color: #343a40!important;
+}
+
+.nav-drop {
+    text-decoration: none;
+    color: rgba(255, 255, 255, .5);
+}
+
+.nav-drop:hover {
+    border-radius: 10px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, .5);
+}
+
+.nav-item:hover {
+    border-radius: 10px;
+}
+
+.theNavbrand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+    color: white;
+}
+
+.navcolor {
+    color: white;
+}
+
+.theToggle {
+    display: '';
+    position: relative;
+    float: left;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+}
+
+
+/* Extra small devices (phones, 767px and down) */
+
+@media only screen and (max-width: 767px) {
+    .theNavbrand {
+        float: right;
+        height: 50px;
+        padding: 15px 15px;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .theToggle {
+        position: relative;
+        float: left;
+        padding: 9px 10px;
+        margin-top: 8px;
+        margin-right: 15px;
+        margin-bottom: 8px;
+        background-color: transparent;
+        background-image: none;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        display: contents;
+    }
+}
+
+.bannerPic {
+    margin-top: 66px;
+    max-width: 100%;
+    height: auto;
+    width: 100% /9;
+}
+
+@media (max-width: 315px) {
+    .bannerPic {
+        margin-top: 107px;
+    }
+}
+
+.bannerHeading {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: -79%;
+    left: 50%;
+    transform: translate(-50%, -360%);
+    color: blue;
+    font-size: 60px;
+}
+
+.arrowDown {
+    position: relative;
+    width: 100px;
+    height: 200px;
+    top: 68%;
+    left: 48%;
+    color: blue;
+}
+
+.fa-arrow-down {
+    position: absolute;
+    font-size: 70px;
+    top: -348px;
+    margin:0;
+    animation-name: arrowanim;
+    animation-direction: alternate;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes arrowanim {
+    from {
+        transform: translateY(0%);
+    }
+    to {
+        transform: translateY(50%);
+    }
+}
+
+/*@media (min-width: 1440px) and (max-width: 2000px) {
+    .bannerPic {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+
+    .bannerHeading {
+        position: absolute;
+        top: 33%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: transparent;
+        color: blue;
+        font-size: 60px;
+    }
+
+    .arrowDown {
+        position: absolute;
+        width: 100px;
+        height: 200px;
+        top: 47%;
+        left: 47%;
+        color: blue;
+    }
+}
+
+@media (min-width: 1271px) and (max-width: 1440px) {
+    .bannerPic {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+
+    .bannerHeading {
+        position: absolute;
+        top: 27%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: transparent;
+        color: blue;
+        font-size: 60px;
+    }
+
+    .arrowDown {
+        position: absolute;
+        width: 100px;
+        height: 200px;
+        top: 36%;
+        left: 47%;
+        color: blue;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1270px) {
+    .bannerPic {
+        position: relative;
+        width: 100%;
+        background: cover;
+        height: auto;
+    }
+
+    .bannerHeading {
+        position: absolute;
+        top: 25%;
+        left: 51%;
+        transform: translate(-50%, -50%);
+        background: transparent;
+        color: blue;
+        font-size: 39px;
+    }
+
+    .arrowDown {
+        position: absolute;
+        width: 100px;
+        height: 200px;
+        top: 32%;
+        left: 48%;
+        color: blue;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .bannerPic {
+        position: relative;
+        width: 100%;
+        background: cover;
+        height: auto;
+    }
+
+    .bannerHeading {
+        position: absolute;
+        top: 19%;
+        left: 49%;
+        transform: translate(-50%, -50%);
+        background: transparent;
+        color: blue;
+        font-size: 31px;
+    }
+
+    .arrowDown {
+        position: absolute;
+        width: 100px;
+        height: 200px;
+        top: 22%;
+        left: 45%;
+        color: blue;
+    }
+    .fa-arrow-down {
+        font-size: 50px;
+        transform: translate(-50%, -50%);
+        animation-name: arrowanim;
+        animation-direction: alternate;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        animation-fill-mode: forwards;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+    .bannerPic {
+        position: relative;
+        width: 100%;
+        background: cover;
+        height: auto;
+    }
+
+    .bannerHeading {
+        position: absolute;
+        top: 12%;
+        left: 49%;
+        transform: translate(-50%, -50%);
+        background: transparent;
+        color: blue;
+        font-size: 31px;
+    }
+
+    .arrowDown {
+        position: absolute;
+        width: 100px;
+        height: 200px;
+        top: 19%;
+        left: 47%;
+        color: blue;
+    }
+    .fa-arrow-down {
+        font-size: 45px;
+        transform: translate(-50%, -50%);
+        animation-name: arrowanim;
+        animation-direction: alternate;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        animation-fill-mode: forwards;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 599px) {
+    .bannerPic {
+        position: relative;
+        width: 100%;
+        background: cover;
+        height: auto;
+    }
+
+    .bannerHeading {
+        position: absolute;
+        top: 11%;
+        left: 49%;
+        transform: translate(-50%, -50%);
+        background: transparent;
+        color: blue;
+        font-size: 21px;
+    }
+
+    .arrowDown {
+        position: absolute;
+        width: 100px;
+        height: 200px;
+        top: 14%;
+        left: 47%;
+        color: blue;
+    }
+    .fa-arrow-down {
+        font-size: 36px;
+        transform: translate(-50%, -50%);
+        animation-name: arrowanim;
+        animation-direction: alternate;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        animation-fill-mode: forwards;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 499px) {
+    .bannerPic {
+        position: relative;
+        width: 100%;
+        background: cover;
+        height: auto;
+    }
+
+    .bannerHeading {
+        position: absolute;
+        top: 8%;
+        left: 48%;
+        transform: translate(-50%, -50%);
+        background: transparent;
+        color: blue;
+        font-size: 18px;
+    }
+
+    .arrowDown {
+        position: absolute;
+        width: 100px;
+        height: 200px;
+        top: 11%;
+        left: 46%;
+        color: blue;
+    }
+    .fa-arrow-down {
+        font-size: 33px;
+        transform: translate(-50%, -50%);
+        animation-name: arrowanim;
+        animation-direction: alternate;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        animation-fill-mode: forwards;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .bannerPic {
+        position: relative;
+        width: 100%;
+        background: cover;
+        height: auto;
+    }
+
+    .bannerHeading {
+        position: absolute;
+        top: 6%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: transparent;
+        color: blue;
+        font-size: 15px;
+    }
+
+    .arrowDown {
+        position: absolute;
+        width: 100px;
+        height: 200px;
+        top: 9%;
+        left: 46%;
+        color: blue;
+    }
+    .fa-arrow-down {
+        font-size: 29px;
+        transform: translate(-50%, -50%);
+        animation-name: arrowanim;
+        animation-direction: alternate;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        animation-fill-mode: forwards;
+    }
+}*/
+
+/*-------------------------------------------------Carousel-------------------------------------------------*/
+
+.blueSectionBG {
+    width: 100%;
+    height: 560px;
+    margin-top: 40px;
+    background-color: rgb(0, 70, 140);
+}
+
+.carouselSize {
+    width: 100%;
+    height: 600px;
+}
+
+.image-sizes {
+    height: 650px;
+    background-size: cover;
+}
+
+.travel-highlights-heading {
+    text-align: center;
+    color: white;
+}
+
+.food-bg {
+    width: 100%;
+    height: 200px;
+    background: white;
+    overflow: visible;
+}
+
+.food-image-sizes {
+    height: 240px;
+    background-size: cover;
+}
+
+.foodCarouselSize {
+    width: 100%;
+    height: 240px;
+    background: cover;
+}
+
+.food-carousel-BGbox {
+    width: 100%;
+    position: relative;
+    height: 240px;
+    background-color: white;
+    padding: 0;
+}
+
+.foodtext {
+    text-align: center;
+    font-size: 20px;
+}
+
+.cultureCarouselSize {
+    width: 100%;
+    height: 240px;
+    background: cover;
+}
+
+.culture-image-sizes {
+    height: 240px;
+    background-size: cover;
+}
+
+.culture-carousel-BGbox {
+    width: 100%;
+    position: relative;
+    height: 480px;
+    background-color: white;
+    padding: 0;
+}
+
+.culturetext {
+    text-align: center;
+    font-size: 20px;
+}
+
+@media (max-width: 767px) {
+    .blueSectionBG {
+        width: 100%;
+        height: 1070px;
+        margin-top: 40px;
+        background-color: rgb(0, 70, 140);
+    }
+}
+
+@media (max-width: 767px) and (min-width: 471px) {
+    .blueSectionBG {
+        width: 100%;
+        height: 870px;
+        margin-top: 40px;
+        background-color: rgb(0, 70, 140);
+    }
+    .food-carousel-BGbox {
+        width: 100%;
+        position: relative;
+        height: 150px;
+        background-color: white;
+        padding: 0;
+    }
+    .culture-carousel-BGbox {
+        width: 100%;
+        position: relative;
+        height: 360px;
+        background-color: white;
+        padding: 0;
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 1170px) {
+    .foodHeading {
+        margin-top: 20px;
+    }
+
+    .foodtext {
+        text-align: center;
+        font-size: 21px;
+    }
+
+    .culturetext {
+        text-align: center;
+        font-size: 21px;
+    }
+
+    .cultureHeading {
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 1033px) and (max-width: 1169px) {
+    .foodtext {
+        text-align: center;
+        font-size: 20px;
+    }
+    .culturetext {
+        text-align: center;
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 846px) and (max-width: 1033px) {
+    .foodtext {
+        text-align: center;
+        font-size: 19px;
+    }
+    .culturetext {
+        text-align: center;
+        font-size: 17px;
+    }
+}
+
+@media (min-width: 642px) and (max-width: 845px) {
+    .foodtext {
+        text-align: center;
+        font-size: 15px;
+    }
+    .culturetext {
+        text-align: center;
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 471px) and (max-width: 641px) {
+
+    .foodtext {
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .culturetext {
+        text-align: center;
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 323px) and (max-width: 470px) {
+
+    .blueSectionBG {
+        width: 100%;
+        height: 760px;
+        margin-top: 40px;
+        background-color: rgb(0, 70, 140);
+    }
+
+    .foodtext {
+        text-align: center;
+        font-size: 8px;
+    }
+
+    .food-image-sizes {
+        height: 200px;
+        background-size: cover;
+    }
+
+    .foodCarouselSize {
+        width: 100%;
+        height: 200px;
+        background: cover;
+    }
+
+    .food-carousel-BGbox {
+        width: 100%;
+        position: relative;
+        height: 100px;
+        background-color: white;
+        padding: 0;
+    }
+
+
+    .culturetext {
+        text-align: center;
+        font-size: 8px;
+    }
+    .culture-carousel-BGbox {
+        width: 100%;
+        position: relative;
+        height: 356px;
+        background-color: white;
+        padding: 0;
+        margin-top: 10px;
+    }
+    .cultureCarouselSize {
+        width: 100%;
+        height: 200px;
+        background: cover;
+    }
+
+    .culture-image-sizes {
+        height: 200px;
+        background-size: cover;
+    }
+}
+
+@media (max-width: 322px) {
+
+    .blueSectionBG {
+        width: 100%;
+        height: 770px;
+        margin-top: 40px;
+        background-color: rgb(0, 70, 140);
+    }
+
+    .foodtext {
+        text-align: center;
+        font-size: 8px;
+    }
+
+    .food-image-sizes {
+        height: 200px;
+        background-size: cover;
+    }
+
+    .foodCarouselSize {
+        width: 100%;
+        height: 200px;
+        background: cover;
+    }
+
+    .food-carousel-BGbox {
+        width: 100%;
+        position: relative;
+        height: 110px;
+        background-color: white;
+        padding: 0;
+    }
+
+
+    .culturetext {
+        text-align: center;
+        font-size: 8px;
+    }
+    .culture-carousel-BGbox {
+        width: 100%;
+        position: relative;
+        height: 336px;
+        background-color: white;
+        padding: 0;
+        margin-top: 10px;
+    }
+    .cultureCarouselSize {
+        width: 100%;
+        height: 200px;
+        background: cover;
+    }
+
+    .culture-image-sizes {
+        height: 200px;
+        background-size: cover;
+    }
+}
+
+/*-------------------------------------------------Text 1-------------------------------------------------*/
+
+#more {
+    display: none;
+}
+
+
+
+
+.readbtnSize {
+    width: 100%;
+    height: 50px;
+}
+
+.text-img {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-top: -10px;
+    margin-right: 10px;
+}
+
+.why-travel-to-germany-heading {
+    text-align: left;
+    color: black;
+    font-family: 'Merriweather', serif;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+
+.why-travel-to-germany-p {
+    text-align: left;
+    white-space: pre-line;
+    color: black;
+    font-family: 'Merriweather', serif;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.why-travel-to-germany-bg {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 60px 0;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+}
+
+/*-------------------------------------------------Text 2-------------------------------------------------*/
+
+.the-german-culture-and-traditions-heading {
+    text-align: left;
+    color: black;
+    font-family: 'Merriweather', serif;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+
+.the-german-culture-and-traditions-p {
+    text-align: left;
+    white-space: pre-line;
+    color: black;
+    font-family: 'Merriweather', serif;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.the-german-culture-and-traditions-bg {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    margin-top: -200px;
+    background-color: white;
+}
+
+/*-------------------------------------------------Text 3-------------------------------------------------*/
+
+.the-german-language {
+    text-align: left;
+    color: black;
+    font-family: 'Merriweather', serif;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+
+.the-german-language-p {
+    text-align: left;
+    white-space: pre-line;
+    color: black;
+    font-family: 'Merriweather', serif;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.the-german-language-bg {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    background-color: #f5f5f5;
+}
+
+/*-------------------------------------------------Audio-------------------------------------------------*/
+
+.audio1-heading {
+    margin-top: 27px;
+    color: black;
+    display: block;
+}
+
+.audio-file1 {
+    object-fit: fill;
+    position: relative;
+    width: 100%;
+    height: 70px;
+}
+
+/*-------------------------------------------------Videos-------------------------------------------------*/
+
+.vid-bg {
+    background-color: #fff;
+    width: 100%;
+    height: 900px;
+    background-repeat: no-repeat;
+}
+
+.germany-video1-heading {
+    text-align: left;
+    margin-top: 60px;
+    margin-left: 40px;
+    color: black;
+}
+
+.germany-video1 {
+    object-fit: fill;
+    width: 100%;
+    height: 400px;
+    margin: 0px 20px;
+}
+
+.germany-video2-heading {
+    text-align: left;
+    margin-top: 60px;
+    margin-left: -20px;
+    color: black;
+}
+
+.germany-video2 {
+    object-fit: fill;
+    width: 100%;
+    height: 400px;
+    margin: 0px;
+}
+
+.language-video-heading {
+    margin-top: 60px;
+    text-align: left;
+    color: black;
+}
+
+.germany-video3 {
+    object-fit: fill;
+    width: 100%;
+    height: 400px;
+    margin: 0px -25px;
+}
+
+/*-------------------------------------------------Informations-------------------------------------------------*/
+
+.eatBox {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    margin: 20px 0;
+    box-shadow: 7px 3px 15px 3px;
+}
+
+.fa-utensils {
+    color: turquoise;
+    text-align: center;
+    font-size: 100px;
+    margin-top: 20px;
+}
+
+.restaurants-heading {
+    margin: 20px 0;
+}
+
+.shopBox {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    margin: 20px 0;
+    box-shadow: 7px 3px 15px 3px;
+}
+
+.fa-shopping-bag {
+    color: yellow;
+    text-align: center;
+    font-size: 100px;
+    margin-top: 20px;
+}
+
+.shop-heading {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.tourBox {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    margin: 20px 0;
+    box-shadow: 7px 3px 15px 3px;
+}
+
+.fa-bus {
+    color: lightgreen;
+    text-align: center;
+    font-size: 100px;
+    margin-top: 20px;
+}
+
+.tour-heading {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.tourText {
+    text-align: center;
+    font-size: 30px;
+    margin: 0 25px;
+}
+
+/*@media (max-width: 850px) and (min-width: 768px) {
+    .eatBox {
+        width: 100%;
+        height: 1390px;
+        background-color: white;
+        margin: 20px 0;
+        box-shadow: 7px 3px 15px 3px;
+    }
+    .shopBox {
+        width: 100%;
+        height: 1390px;
+        background-color: white;
+        margin: 20px 0;
+        box-shadow: 7px 3px 15px 3px;
+    }
+    .tourBox {
+        width: 100%;
+        height: 1390px;
+        background-color: white;
+        margin: 20px 0;
+        box-shadow: 7px 3px 15px 3px;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 851px) {
+    .eatBox {
+        width: 100%;
+        height: 1124px;
+        background-color: white;
+        margin: 20px 0;
+        box-shadow: 7px 3px 15px 3px;
+    }
+    .shopBox {
+        width: 100%;
+        height: 1124px;
+        background-color: white;
+        margin: 20px 0;
+        box-shadow: 7px 3px 15px 3px;
+    }
+    .tourBox {
+        width: 100%;
+        height: 1124px;
+        background-color: white;
+        margin: 20px 0;
+        box-shadow: 7px 3px 15px 3px;
+    }
+}
+
+@media (max-width: 1116px) and (min-width: 1025px) {
+    .eatBox {
+        width: 100%;
+        height: 912px;
+        background-color: white;
+        margin: 20px 0;
+        box-shadow: 7px 3px 15px 3px;
+    }
+    .shopBox {
+        width: 100%;
+        height: 912px;
+        background-color: white;
+        margin: 20px 0;
+        box-shadow: 7px 3px 15px 3px;
+    }
+    .tourBox {
+        width: 100%;
+        height: 912px;
+        background-color: white;
+        margin: 20px 0;
+        box-shadow: 7px 3px 15px 3px;
+    }
+}
+
+@media (max-width: 1361px) and (min-width: 1117px) {
+    .eatBox {
+        width: 100%;
+        height: 750px;
+        background-color: white;
+        margin: 20px 0;
+        box-shadow: 7px 3px 15px 3px;
+    }
+    .shopBox {
+        width: 100%;
+        height: 750px;
+        background-color: white;
+        margin: 20px 0;
+        box-shadow: 7px 3px 15px 3px;
+    }
+    .tourBox {
+        width: 100%;
+        height: 750px;
+        background-color: white;
+        margin: 20px 0;
+        box-shadow: 7px 3px 15px 3px;
+    }
+}
+
+@media (min-width: 1709px) {
+    .eatBox {
+        width: 100%;
+        height: 580px;
+        background-color: white;
+        margin: 20px 0;
+        box-shadow: 7px 3px 15px 3px;
+    }
+    .shopBox {
+        width: 100%;
+        height: 580px;
+        background-color: white;
+        margin: 20px 0;
+        box-shadow: 7px 3px 15px 3px;
+    }
+    .tourBox {
+        width: 100%;
+        height: 580px;
+        background-color: white;
+        margin: 20px 0;
+        box-shadow: 7px 3px 15px 3px;
+    }
+}*/
+
+/*-------------------------------------------------Footer-------------------------------------------------*/
+
+.footer-bg {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(black, #262626);
+}
+
+.footer-pictures {
+    display: flex;
+    justify-content: center;
+    color: AliceBlue;
+    text-decoration: none;
+}
+
+.footer-pictures:hover {
+    color: #5EB9FE;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+}
+
+.footer-contacts {
+    display: flex;
+    justify-content: center;
+    color: AliceBlue;
+    text-decoration: none;
+}
+
+.footer-contacts:hover {
+    color: #5EB9FE;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+}
+
+.general-sub {
+    display: flex;
+    justify-content: center;
+    color: AliceBlue;
+}
+
+/*-------------------------------------------------Media Queries-------------------------------------------------*/
+
+@media (max-width: 767px) {
+    /*-------------------------------------------------Navbar-------------------------------------------------*/
+    /*-------------------------Logo-------------------------*/
+    .header-bg {
+        width: 100%;
+        height: 260px;
+        background-color: black;
+        position: relative;
+    }
+
+    .header-bg:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+
+    .german-flag-logo-text {
+        text-align: center;
+        color: Aliceblue;
+        margin-top: 21px;
+        font-family: 'Merriweather', serif;
+        font-size: 20px;
+        text-decoration: none;
+        z-index: 1;
+        position: absolute;
+        transform: translate(28%, -15%)
+    }
+
+    .german-flag-logo-text:hover {
+        color: #5EB9FE;
+        transition: 0.2s ease-in-out;
+        z-index: 1;
+
+    }
+
+    /*-------------------------Menu Items-------------------------*/
+    .nav-list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .list-items {
+        display: inline-block;
+    }
+
+    .nav-items {
+        float: center;
+    }
+
+    .menu-text {
+        color: #ddd;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 14px;
+        background-color: black;
+    }
+
+    .box1 {
+        text-align: center;
+        margin-top: 70px;
+        margin-right: 5px;
+        padding: 0px 141px;
+    }
+
+    .box2 {
+        padding: 0px 135px;
+    }
+
+    .box3 {
+        padding: 0px 135px;
+    }
+
+    .box4 {
+        padding: 0px 125px;
+    }
+
+    .fa-home {
+        display: block;
+        font-size: 20px;
+    }
+
+    .fa-map {
+        display: block;
+        font-size: 20px;
+    }
+
+    .fa-hotel {
+        display: block;
+        font-size: 20px;
+    }
+
+    .fa-comment {
+        display: block;
+        font-size: 20px;
+    }
+
+    /*-------------------------------------------------Carousel-------------------------------------------------*/
+    .carouselSize {
+        width: 100%;
+        height: 600px;
+    }
+
+    .image-sizes {
+        height: 650px;
+        background-size: cover;
+    }
+
+    /*-------------------------------------------------Text 1-------------------------------------------------*/
+    .text-img {
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+
+    .why-travel-to-germany-heading {
+        text-align: left;
+        color: black;
+        font-family: 'Merriweather', serif;
+        font-weight: bolder;
+        margin-bottom: 30px;
+        font-size: 35px;
+    }
+
+    .why-travel-to-germany-p {
+        text-align: left;
+        white-space: pre-line;
+        color: black;
+        font-family: 'Merriweather', serif;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .why-travel-to-germany-bg {
+        position: relative;
+        width: 100%;
+        height: auto;
+        padding-top: 20px;
+        background-color: #f5f5f5;
+    }
+
+    /*-------------------------------------------------Text 2-------------------------------------------------*/
+    .the-german-culture-and-traditions-heading {
+        text-align: left;
+        color: black;
+        font-family: 'Merriweather', serif;
+        font-weight: bolder;
+        margin-bottom: 30px;
+        font-size: 35px;
+    }
+
+    .the-german-culture-and-traditions-p {
+        text-align: left;
+        white-space: pre-line;
+        color: black;
+        font-family: 'Merriweather', serif;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .the-german-culture-and-traditions-bg {
+        position: relative;
+        width: 100%;
+        height: auto;
+        padding-top: 20px;
+        background-color: white;
+    }
+
+    /*-------------------------------------------------Text 3-------------------------------------------------*/
+    .the-german-language {
+        text-align: left;
+        color: black;
+        font-family: 'Merriweather', serif;
+        font-weight: bolder;
+        margin-bottom: 30px;
+        font-size: 35px;
+    }
+
+    .the-german-language-p {
+        text-align: left;
+        white-space: pre-line;
+        color: black;
+        font-family: 'Merriweather', serif;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .the-german-language-bg {
+        position: relative;
+        width: 100%;
+        height: auto;
+        padding-top: 20px;
+        background-color: #f5f5f5;
+    }
+
+    /*-------------------------------------------------Audio-------------------------------------------------*/
+    .audio1-heading {
+        margin-top: 10px;
+        margin-right: 100px;
+        text-align: left;
+        color: black;
+    }
+
+    .audio-file1 {
+        width: 100%;
+        height: 60px;
+    }
+
+    /*-------------------------------------------------Videos-------------------------------------------------*/
+    .vid-bg {
+        background-color: #fff;
+        width: 100%;
+        height: 900px;
+        background-repeat: no-repeat;
+    }
+
+    .germany-video1-heading {
+        text-align: center;
+        margin-top: 10px;
+        margin-right: 50px;
+        text-align: left;
+        color: black;
+    }
+
+    .germany-video1 {
+        width: 100%;
+        height: auto;
+        margin-left: -20px;
+    }
+
+    .germany-video2-heading {
+        margin-top: 10px;
+        text-align: center;
+        color: black;
+    }
+
+    .germany-video2 {
+        width: 100%;
+        height: auto;
+        margin-left: -20px;
+    }
+
+    .language-video-heading {
+        margin-top: 10px;
+        text-align: left;
+        color: black;
+    }
+
+    .germany-video3 {
+        width: 100%;
+        height: auto;
+        margin: 0px -20px;
+    }
+
+    /*-------------------------------------------------Footer-------------------------------------------------*/
+    .footer-bg {
+        width: 100%;
+        height: 120px;
+        background-image: linear-gradient(black, #262626);
+    }
+
+    .footer-pictures {
+        color: AliceBlue;
+        text-decoration: none;
+    }
+
+    .footer-pictures:hover {
+        color: #5EB9FE;
+        text-decoration: none;
+        transition: 0.2s ease-in-out;
+    }
+
+    .footer-contacts {
+        color: AliceBlue;
+        text-decoration: none;
+    }
+
+    .footer-contacts:hover {
+        color: #5EB9FE;
+        text-decoration: none;
+        transition: 0.2s ease-in-out;
+    }
+
+    .general-sub {
+
+        color: AliceBlue;
+    }
+}

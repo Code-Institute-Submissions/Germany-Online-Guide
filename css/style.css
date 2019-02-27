@@ -28,9 +28,9 @@
     margin: 0px;
 }
 
-.hvr-rectangle-out {
+/*.hvr-rectangle-out {
     background-color: #343a40!important;
-}
+}*/
 
 .nav-drop {
     text-decoration: none;
@@ -41,6 +41,25 @@
     border-radius: 10px;
     text-decoration: none;
     color: rgba(255, 255, 255, .5);
+}
+
+.ToggleColor {
+    background-color: #212529;
+}
+
+.dropdownTextColor {
+    color: rgba(255, 255, 255, .5);
+}
+
+.dropdownTextColor:hover {
+    background-color: #343a40;
+    color: rgba(255, 255, 255, .75);
+    transition: .2s ease-in;
+}
+
+.btnHover {
+    border-radius: 5px;
+    transition: .2s;
 }
 
 .nav-item:hover {
@@ -60,18 +79,12 @@
     color: white;
 }
 
-.theToggle {
-    display: '';
-    position: relative;
-    float: left;
-    padding: 9px 10px;
-    margin-top: 8px;
-    margin-right: 15px;
-    margin-bottom: 8px;
-    background-color: transparent;
-    background-image: none;
-    border: 1px solid transparent;
+.btn-design {
+    margin: 0;
+    padding: 1px 10px 0px 0;
 }
+
+
 
 
 /* Extra small devices (phones, 767px and down) */
@@ -99,11 +112,43 @@
     }
 }
 
+.banner{
+    padding:0;
+}
+
 .bannerPic {
+    background-image: url('../assets/images/banner/frankf.jpg');
+    width: 100%;
+    height: 700px;
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.bannerPic:before {
+    animation: animate-banner 10s .5s cubic-bezier(0, .5, 0, 1) forwards;
+    -moz-animation: animate-banner 10s .5s cubic-bezier(0, .5, 0, 1) forwards;
+    -webkit-animation: animate-banner 10s .5s cubic-bezier(0, .5, 0, 1) forwards;
+    -o-animation: animate-banner 10s .5s cubic-bezier(0, .5, 0, 1) forwards;
+    opacity: 0;
+    content: "";
+    position: absolute;
+    background-image: url('../assets/images/frankf.jpg');
     margin-top: 66px;
     max-width: 100%;
     height: auto;
     width: 100% /9;
+}
+
+@keyframes animate-galleryBG {
+    0% {
+        opacity: 0;
+        transform: translateY(4rem);
+    }
+    100% {
+        opacity: 1;
+        transform: none
+    }
 }
 
 @media (max-width: 315px) {
@@ -125,18 +170,17 @@
 
 .arrowDown {
     position: relative;
-    width: 100px;
-    height: 200px;
-    top: 68%;
-    left: 48%;
-    color: blue;
+    bottom: 100%;
+    left: 50%;
+    color: white;
+    z-index: 999;
 }
 
 .fa-arrow-down {
     position: absolute;
     font-size: 70px;
     top: -348px;
-    margin:0;
+    margin: 0;
     animation-name: arrowanim;
     animation-direction: alternate;
     animation-duration: 1s;
@@ -428,11 +472,69 @@
 
 /*-------------------------------------------------Carousel-------------------------------------------------*/
 
+.Rows {
+    display: inline-block;
+}
+
+.gallery-container {
+    margin: 0;
+}
+
+.galleryBG {
+    position: relative;
+    background-color: #f5f5f5;
+    padding-top: 130px;
+    padding-bottom: 30px;
+}
+
+.galleryBG:before {
+    animation: animate-galleryBG 10s cubic-bezier(0, .5, 0, 1) infinite;
+    -moz-animation: animate-galleryBG 10s cubic-bezier(0, .5, 0, 1) infinite;
+    -webkit-animation: animate-galleryBG 10s cubic-bezier(0, .5, 0, 1) infinite;
+    -o-animation: animate-galleryBG 10s cubic-bezier(0, .5, 0, 1) infinite;
+    opacity: 0;
+    content: "";
+    position: absolute;
+    background-image: linear-gradient(to right, #01FEFF, #01FE5C);
+    padding-top: 130px;
+    padding-bottom: 30px;
+}
+
+@keyframes animate-galleryBG {
+    0% {
+        background-position: 0% 0;
+    }
+    50% {
+        background-position: 100% 0;
+    }
+
+    100% {
+        background-position: 0% 0;
+    }
+}
+
+.gallery-text {
+    color: white;
+}
+
+.card {
+    margin: 30px 0;
+}
+
+.card-size {
+    width: 100%;
+    height: 320px;
+}
+
 .blueSectionBG {
     width: 100%;
-    height: 560px;
+    height: 800px;
     margin-top: 40px;
-    background-color: rgb(0, 70, 140);
+    background-color: #00499D;
+}
+
+.containerSpace {
+    padding: 0;
 }
 
 .carouselSize {
@@ -452,26 +554,27 @@
 
 .food-bg {
     width: 100%;
-    height: 200px;
+    height: 300px;
     background: white;
     overflow: visible;
+    display: inline-block;
 }
 
 .food-image-sizes {
-    height: 240px;
+    height: 350px;
     background-size: cover;
 }
 
 .foodCarouselSize {
     width: 100%;
-    height: 240px;
+    height: 350px;
     background: cover;
 }
 
 .food-carousel-BGbox {
     width: 100%;
     position: relative;
-    height: 240px;
+    height: 335px;
     background-color: white;
     padding: 0;
 }
@@ -483,21 +586,22 @@
 
 .cultureCarouselSize {
     width: 100%;
-    height: 240px;
+    height: 325px;
     background: cover;
 }
 
 .culture-image-sizes {
-    height: 240px;
+    height: 325px;
     background-size: cover;
 }
 
 .culture-carousel-BGbox {
     width: 100%;
     position: relative;
-    height: 480px;
+    height: 685px;
     background-color: white;
     padding: 0;
+    display: inline-block;
 }
 
 .culturetext {
@@ -517,7 +621,7 @@
 @media (max-width: 767px) and (min-width: 471px) {
     .blueSectionBG {
         width: 100%;
-        height: 870px;
+        height: 1100px;
         margin-top: 40px;
         background-color: rgb(0, 70, 140);
     }
@@ -531,7 +635,7 @@
     .culture-carousel-BGbox {
         width: 100%;
         position: relative;
-        height: 360px;
+        height: 480px;
         background-color: white;
         padding: 0;
         margin-top: 20px;
@@ -608,7 +712,7 @@
 
     .blueSectionBG {
         width: 100%;
-        height: 760px;
+        height: 800px;
         margin-top: 40px;
         background-color: rgb(0, 70, 140);
     }
@@ -632,7 +736,7 @@
     .food-carousel-BGbox {
         width: 100%;
         position: relative;
-        height: 100px;
+        height: 140px;
         background-color: white;
         padding: 0;
     }
@@ -655,18 +759,24 @@
         height: 200px;
         background: cover;
     }
+    
+    .culture-image-size {
+        width: 100%;
+        height: 200px;
+        background: no-repeat center center fixed;
+    }
 
     .culture-image-sizes {
         height: 200px;
         background-size: cover;
-    }
+    }            
 }
 
 @media (max-width: 322px) {
 
     .blueSectionBG {
         width: 100%;
-        height: 770px;
+        height: 850px;
         margin-top: 40px;
         background-color: rgb(0, 70, 140);
     }
@@ -690,7 +800,7 @@
     .food-carousel-BGbox {
         width: 100%;
         position: relative;
-        height: 110px;
+        height: 150px;
         background-color: white;
         padding: 0;
     }
@@ -703,7 +813,7 @@
     .culture-carousel-BGbox {
         width: 100%;
         position: relative;
-        height: 336px;
+        height: 380px;
         background-color: white;
         padding: 0;
         margin-top: 10px;
@@ -726,20 +836,25 @@
     display: none;
 }
 
-
-
-
 .readbtnSize {
     width: 100%;
     height: 50px;
 }
 
-.text-img {
+.text-img1 {
     width: 100%;
-    height: auto;
-    float: left;
-    margin-top: -10px;
-    margin-right: 10px;
+    height: 400px;
+    background-image: url('../assets/images/germany-map-flag.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.text-img2 {
+    width: 100%;
+    height: 700px;
+    background-image: url('../assets/images/places/img1.jpeg');
+    background-size: cover;
+    background-position: center;
 }
 
 .why-travel-to-germany-heading {
@@ -766,13 +881,13 @@
     height: auto;
     padding: 60px 0;
     margin-bottom: 20px;
-    background-color: #f5f5f5;
+    background-color: white;
 }
 
 /*-------------------------------------------------Text 2-------------------------------------------------*/
 
 .the-german-culture-and-traditions-heading {
-    text-align: left;
+    text-align: center;
     color: black;
     font-family: 'Merriweather', serif;
     font-weight: bolder;
@@ -781,8 +896,7 @@
 }
 
 .the-german-culture-and-traditions-p {
-    text-align: left;
-    white-space: pre-line;
+    text-align: center;
     color: black;
     font-family: 'Merriweather', serif;
     font-size: 28px;
@@ -793,12 +907,16 @@
     position: relative;
     width: 100%;
     height: auto;
-    padding-top: 20px;
-    margin-top: -200px;
+    padding: 60px 0;
     background-color: white;
 }
 
 /*-------------------------------------------------Text 3-------------------------------------------------*/
+
+.imgSpace1 {
+    margin: 0;
+}
+
 
 .the-german-language {
     text-align: left;
@@ -828,7 +946,14 @@
 
 /*-------------------------------------------------Audio-------------------------------------------------*/
 
+.national-anthem-row {
+    padding-bottom: 40px;
+    background-color: white;
+    margin-top: -2px;
+}
+
 .audio1-heading {
+    text-align: center;
     margin-top: 27px;
     color: black;
     display: block;
@@ -841,64 +966,81 @@
     height: 70px;
 }
 
+.audio-text {
+    text-align: center;
+    font-size: 30px;
+}
+
 /*-------------------------------------------------Videos-------------------------------------------------*/
 
 .vid-bg {
-    background-color: #fff;
     width: 100%;
-    height: 900px;
+    height: auto;
+    padding: 70px 0;
     background-repeat: no-repeat;
+    background-color: #00499D;
+}
+
+.vid-main-heading {
+    text-align: center;
+    padding-bottom: 40px;
+    color: white;
+}
+
+.vid-space {
+    padding: 0px;
+    margin-left: 0;
+    margin-right: 0px;
 }
 
 .germany-video1-heading {
-    text-align: left;
-    margin-top: 60px;
-    margin-left: 40px;
-    color: black;
+    text-align: center;
+    color: white;
 }
 
 .germany-video1 {
     object-fit: fill;
     width: 100%;
     height: 400px;
-    margin: 0px 20px;
 }
 
 .germany-video2-heading {
-    text-align: left;
-    margin-top: 60px;
-    margin-left: -20px;
-    color: black;
+    text-align: center;
+    color: white;
 }
 
 .germany-video2 {
     object-fit: fill;
     width: 100%;
     height: 400px;
-    margin: 0px;
 }
 
 .language-video-heading {
-    margin-top: 60px;
-    text-align: left;
-    color: black;
+    text-align: center;
+    color: white;
 }
 
 .germany-video3 {
     object-fit: fill;
     width: 100%;
     height: 400px;
-    margin: 0px -25px;
 }
 
 /*-------------------------------------------------Informations-------------------------------------------------*/
 
+.info-bg {
+    width: 100%;
+    height: auto;
+    background-color: #f5f5f5;
+    margin: 0px;
+    padding: 50px 0;
+}
+
 .eatBox {
     width: 100%;
     height: auto;
+    margin: 50px 0;
     background-color: white;
-    margin: 20px 0;
-    box-shadow: 7px 3px 15px 3px;
 }
 
 .fa-utensils {
@@ -915,9 +1057,8 @@
 .shopBox {
     width: 100%;
     height: auto;
+    margin: 50px 0;
     background-color: white;
-    margin: 20px 0;
-    box-shadow: 7px 3px 15px 3px;
 }
 
 .fa-shopping-bag {
@@ -935,9 +1076,8 @@
 .tourBox {
     width: 100%;
     height: auto;
+    margin: 50px 0;
     background-color: white;
-    margin: 20px 0;
-    box-shadow: 7px 3px 15px 3px;
 }
 
 .fa-bus {
@@ -952,10 +1092,12 @@
     margin: 20px 0;
 }
 
-.tourText {
+.infoText {
     text-align: center;
-    font-size: 30px;
-    margin: 0 25px;
+    font-size: 20px;
+    margin: 0 auto 30px;
+    font-weight: 300;
+    max-width: 600px;
 }
 
 /*@media (max-width: 850px) and (min-width: 768px) {
@@ -1101,6 +1243,26 @@
     transition: 0.2s ease-in-out;
 }
 
+.fa-twitter {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #f5f5f5;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.fa-facebook {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #f5f5f5;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 20px;
+}
+
 .footer-contacts {
     display: flex;
     justify-content: center;
@@ -1114,9 +1276,11 @@
     transition: 0.2s ease-in-out;
 }
 
+.uppercase {
+    text-transform: uppercase;
+}
+
 .general-sub {
-    display: flex;
-    justify-content: center;
     color: AliceBlue;
 }
 
@@ -1239,7 +1403,7 @@
     }
 
     .why-travel-to-germany-heading {
-        text-align: left;
+        text-align: center;
         color: black;
         font-family: 'Merriweather', serif;
         font-weight: bolder;
@@ -1248,7 +1412,7 @@
     }
 
     .why-travel-to-germany-p {
-        text-align: left;
+        text-align: center;
         white-space: pre-line;
         color: black;
         font-family: 'Merriweather', serif;
@@ -1261,12 +1425,12 @@
         width: 100%;
         height: auto;
         padding-top: 20px;
-        background-color: #f5f5f5;
+        background-color: white;
     }
 
     /*-------------------------------------------------Text 2-------------------------------------------------*/
     .the-german-culture-and-traditions-heading {
-        text-align: left;
+        text-align: center;
         color: black;
         font-family: 'Merriweather', serif;
         font-weight: bolder;
@@ -1275,7 +1439,7 @@
     }
 
     .the-german-culture-and-traditions-p {
-        text-align: left;
+        text-align: center;
         white-space: pre-line;
         color: black;
         font-family: 'Merriweather', serif;
@@ -1315,66 +1479,34 @@
         width: 100%;
         height: auto;
         padding-top: 20px;
-        background-color: #f5f5f5;
+        background-color: white;
     }
 
-    /*-------------------------------------------------Audio-------------------------------------------------*/
-    .audio1-heading {
-        margin-top: 10px;
-        margin-right: 100px;
-        text-align: left;
-        color: black;
-    }
 
-    .audio-file1 {
-        width: 100%;
-        height: 60px;
-    }
 
     /*-------------------------------------------------Videos-------------------------------------------------*/
     .vid-bg {
         background-color: #fff;
         width: 100%;
-        height: 900px;
+        height: 1400px;
         background-repeat: no-repeat;
-    }
-
-    .germany-video1-heading {
-        text-align: center;
-        margin-top: 10px;
-        margin-right: 50px;
-        text-align: left;
-        color: black;
+        padding: 40px 0;
+        overflow: hidden;
     }
 
     .germany-video1 {
         width: 100%;
-        height: auto;
-        margin-left: -20px;
-    }
-
-    .germany-video2-heading {
-        margin-top: 10px;
-        text-align: center;
-        color: black;
+        height: 400px;
     }
 
     .germany-video2 {
         width: 100%;
-        height: auto;
-        margin-left: -20px;
-    }
-
-    .language-video-heading {
-        margin-top: 10px;
-        text-align: left;
-        color: black;
+        height: 400px;
     }
 
     .germany-video3 {
         width: 100%;
-        height: auto;
-        margin: 0px -20px;
+        height: 400px;
     }
 
     /*-------------------------------------------------Footer-------------------------------------------------*/

@@ -7,7 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css" type="text/css" />
     <link rel="stylesheet" href="../css/style.css" type="text/css" />
     <link rel="stylesheet" href="../assets/js/script.js" type="text/css" />
     <title>Media</title>
@@ -17,7 +18,7 @@
 
     <body>
         <header>
-            <nav class="navbar navbar-expand-md navbar-dark bg-dark navbar-fixed-top">
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
 
                 <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
                     <span class="navbar-toggler-icon"></span>
@@ -28,29 +29,30 @@
 
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a href="index.html" class="nav-link">Home</a>
+                            <a href="index.html" class="nav-link hvr-rectangle-out active">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a href="media.html" class="nav-link">Media</a>
+                            <a href="media.html" class="nav-link hvr-rectangle-out">Media</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Hotels</a>
+                            <a href="#" class="nav-link hvr-rectangle-out">Hotels</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Contacts</a>
-                            <ul class="dropdown-menu">
-                                <li><a href="emergency-contacts.html">Emergency Contacts</a></li>
-                                <li><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
-                                <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
-                                <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+                            <a href="#" class="nav-link hvr-rectangle-out dropdown-toggle" data-toggle="dropdown">Contacts</a>
+                            <ul class="dropdown-menu dropdown-menu-color">
+                                <li class="nav-item hvr-rectangle-out"><a class="nav-drop" href="emergency-contacts.html">Emergency Contacts</a></li>
+                                <li class="nav-item hvr-rectangle-out"><a class="nav-drop" href="https://www.twitter.com" target="_blank">Twitter</a></li>
+                                <li class="nav-item hvr-rectangle-out"><a class="nav-drop" href="https://www.facebook.com" target="_blank">Facebook</a></li>
+                                <li class="nav-item hvr-rectangle-out"><a class="nav-drop" href="https://www.instagram.com" target="_blank">Instagram</a></li>
                             </ul>
                         </li>
                     </ul>
                 </div>
             </nav>
         </header>
-        <section>
-            <div id="germany-slider" class="carousel slide" data-ride="carousel">
+        <article>
+            <section>
+                <!--<div id="germany-slider" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#germany-slider" data-slide-to="0" class="active"></li>
                     <li data-target="#germany-slider" data-slide-to="1"></li>
@@ -126,60 +128,167 @@
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="sr-only">Next</span>
                 </a>
-            </div>
-            
-        </section>
-        <!-----------------------------------------------------------------------------Audio File----------------------------------------------------------------------------->
-        <section>
-            <div class="container-fluid">
-                <div class="row national-anthem-row">
-                    <div class="col-offset-1 col-xs-10 col-offset-0">
-                        <h3 class="audio1-heading uppercase"><u>The German National Anthem:</u></h3>
-                        <audio controls src="../assets/audio/audio1.mp3" class="audio-file1"></audio>
+            </div>-->
+                <div class="container-fluid galleryBG">
+                    <div class="container-fluid gallery-container">
+                        <h1 class="gallery-text text-center">Gallery</h1>
+
+                        <p class="page-description text-center gallery-text">Pictures of Germany</p>
+                        <div class="tz-gallery">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <a class="lightbox" href="/assets/images/places/img7.jpeg">
+                                <img class="card-size hvr-grow" src="/assets/images/places/img7.jpeg">
+                            </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <a class="lightbox" href="/assets/images/places/kassel-wilhe.jpg">
+                                                <img class="card-size hvr-grow" src="/assets/images/places/kassel-wilhe.jpg">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <a class="lightbox" href="/assets/images/places/img6.jpg">
+                                            <img class="card-size hvr-grow" src="/assets/images/places/img6.jpg">
+                                        </a>
+                                    </div>
+                                </div>
+
+
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <a class="lightbox" href="/assets/images/places/fulda-hill.jpg">
+                                            <img class="card-size" src="/assets/images/places/fulda-hill.jpg">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <a class="lightbox" href="/assets/images/places/hamb-carousel.jpg">
+                                            <img class="card-size hvr-grow" src="/assets/images/places/hamb-carousel.jpg">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <a class="lightbox" href="/assets/images/places/Hamburg.jpg">
+                                            <img class="card-size hvr-grow" src="/assets/images/places/Hamburg.jpg">
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <a class="lightbox" href="/assets/images/places/Frankfurt.jpg">
+                                            <img class="card-size hvr-grow" src="/assets/images/places/Frankfurt.jpg">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <a class="lightbox" href="/assets/images/places/img3.jpeg">
+                                            <img class="card-size hvr-grow" src="/assets/images/places/img3.jpeg">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <a class="lightbox" href="/assets/images/places/munich-olympiastadion.jpg">
+                                            <img class="card-size hvr-grow" src="/assets/images/places/munich-olympiastadion.jpg">
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-
+            </section>
+            <!-----------------------------------------------------------------------------Audio File----------------------------------------------------------------------------->
+            <section>
+                <div class="container-fluid">
+                    <div class="row national-anthem-row justify-content-center">
+                        <div class="col">
+                            <h1 class="uppercase audio1-heading ">The German National Anthem</h1>
+                            <audio controls src="../assets/audio/audio1.mp3" class="audio-file1"></audio>
+                        </div>
+                    </div>
+                    <div class="row national-anthem-row justify-content-center">
+                        <div class="col-offset-3 col-6 col-offset-3 audio-text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit nesciunt libero cum itaque incidunt delectus sint. Ab quam sunt culpa iste animi in, tempore quisquam unde, quaerat atque. Voluptatum, laboriosam.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <!-----------------------------------------------------------------------------Videos----------------------------------------------------------------------------->
+            <section>
+                <div class="container-fluid vid-bg">
+                    <div class="row justify-content-center vid-space">
+                        <div class="col">
+                            <h1 class="vid-main-heading">Videos About Germany</h1>
+                        </div>
+                    </div>
+                    <div class="row justify-content-around vid-space">
+                        <div class="col-md-4">
+                            <h3 class="germany-video1-heading uppercase  d-none d-lg-block">Germany Video</h3>
+                            <!--<embed class="germany-video1" width="360" height="115" src="https://www.youtube.com/embed/06YvNPAD2lg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></embed>-->
+                        </div>
+                        <div class="col-md-4">
+                            <h3 class="germany-video2-heading uppercase  d-none d-lg-block">Frankfurt Video</h3>
+                            <!--<embed class="germany-video2" width="360" height="115" src="https://www.youtube.com/embed/HXJtIBXE1vQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></embed>-->
+                        </div>
+                        <div class="col-md-4">
+                            <h3 class="language-video-heading uppercase  d-none d-lg-block">40 Common German Phrases</h3>
+                            <!--<embed class="germany-video3" width="360" height="115" src="https://www.youtube.com/embed/hI7Ay8iR2Q8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></embed>-->
+                        </div>
+                    </div>
+                    <div class="row justify-content-around vid-space">
+                        <div class="col-md-4">
+                            <embed class="germany-video1" width="360" height="115" src="https://www.youtube.com/embed/06YvNPAD2lg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></embed>
+                        </div>
+                        <div class="col-md-4">
+                            <embed class="germany-video2" width="360" height="115" src="https://www.youtube.com/embed/HXJtIBXE1vQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></embed>
+                        </div>
 
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-4">
-                        <h3 class="germany-video1-heading uppercase"><u>Germany Video</u></h3>
-                        <embed class="germany-video1" width="360" height="115" src="https://www.youtube.com/embed/06YvNPAD2lg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></embed>
+                        <div class="col-md-4">
+                            <embed class="germany-video3" width="360" height="115" src="https://www.youtube.com/embed/hI7Ay8iR2Q8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></embed>
+                        </div>
                     </div>
-                    <div class="col-md-4">
-                        <h3 class="germany-video2-heading"><u>Frankfurt Video</u></h3>
-                        <embed class="germany-video2" width="360" height="115" src="https://www.youtube.com/embed/HXJtIBXE1vQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></embed>
-                    </div>
-                    <div class="col-md-4">
-                        <h3 class="language-video-heading uppercase"><u>40 Common German Phrases</u></h3>
-                        <embed class="germany-video3" width="360" height="115" src="https://www.youtube.com/embed/hI7Ay8iR2Q8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></embed>
-                    </div>
-                </div>
-            </div>
-
+            </section>
+        </article>
         <!-----------------------------------------------------------------------------Footer----------------------------------------------------------------------------->
-        <footer class="container-fluid footer-bg">
+        <footer class="container-fluid">
             <div class="row">
-                <div class="col-xs-6">
-                    <h3 class="uppercase general-sub">Gallery</h3>
-                    <a href="index.html">
-                        <p class="footer-pictures">Click Here for Pictures!</p>
-                    </a>
-                </div>
-                <div class="col-xs-6">
-                    <h3 class="uppercase general-sub">Emergency Numbers</h3>
-                    <a href="index.html">
-                        <p class="footer-contacts">Contacts</p>
-                    </a>
+                <div class="footer-bg">
+                    <div class="col-6">
+                        <h3 class="uppercase general-sub">Gallery</h3>
+                        <a href="index.html">
+                            <p class="footer-pictures">Click Here for Pictures!</p>
+                        </a>
+                    </div>
+                    <div class="col-6">
+                        <h3 class="uppercase general-sub">Emergency Numbers</h3>
+                        <a href="index.html">
+                            <p class="footer-contacts">Contacts</p>
+                        </a>
+                    </div>
                 </div>
             </div>
         </footer>
 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+        <script>
+            baguetteBox.run('.tz-gallery');
+        </script>
+
     </body>
 
 </html>

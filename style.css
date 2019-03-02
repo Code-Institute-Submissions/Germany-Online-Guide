@@ -567,18 +567,27 @@
     background-size: cover;
 }
 
-.hotels-bg1{
+.hotel-img2 {
+    height: 100%;
+    background-image: url('../assets/images/hotels/Hotel-Ambassador.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hotels-bg {
     text-align: left;
     color: black;
     font-family: 'Merriweather', serif;
+    background-color: #fafafa;
     font-weight: bolder;
     margin-top: 100px;
     margin-bottom: 30px;
 }
 
-.hotels-inner-bg1 {
-    width:100%;
-    height:auto;
+.hotels-inner-bg {
+    width: 100%;
+    height: auto;
     border: 1px solid black;
 }
 
@@ -607,8 +616,8 @@
 }
 
 .steinberger-list-heading1 {
-    padding:0;
-    margin:0;
+    padding: 0;
+    margin: 0;
 }
 
 .timeline-item:before {
@@ -617,8 +626,8 @@
     left: 2.5em;
     top: 3em;
     display: block;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
 
 .timeline-item:after {
@@ -628,10 +637,10 @@
     display: block;
     top: 2.4em;
     left: -6px;
-    border-radius:12px;
+    border-radius: 12px;
     content: '';
     background-color: black;
-    
+
 }
 
 .office-phone-image-container {

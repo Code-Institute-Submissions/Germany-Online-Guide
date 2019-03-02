@@ -555,10 +555,9 @@
 }*/
 
 .hotel-img-container {
-    height: 400px;
+    height: 450px;
     width: 100%;
 }
-
 
 .hotel-steinberger-img1 {
     height: 100%;
@@ -566,6 +565,73 @@
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.hotels-bg1{
+    text-align: left;
+    color: black;
+    font-family: 'Merriweather', serif;
+    font-weight: bolder;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.hotels-inner-bg1 {
+    width:100%;
+    height:auto;
+    border: 1px solid black;
+}
+
+.hotels-heading {
+    text-align: center;
+    color: black;
+    font-family: 'Merriweather', serif;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+
+.hotels-p {
+    text-align: center;
+    color: black;
+    font-family: 'Merriweather', serif;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.timeline-item {
+    position: relative;
+    color: black;
+    border-left: 1px solid;
+    padding: 4em 2em 0em 2em;
+}
+
+.steinberger-list-heading1 {
+    padding:0;
+    margin:0;
+}
+
+.timeline-item:before {
+    content: attr(data-suites);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    margin:0;
+    padding:0;
+}
+
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    display: block;
+    top: 2.4em;
+    left: -6px;
+    border-radius:12px;
+    content: '';
+    background-color: black;
+    
 }
 
 .office-phone-image-container {

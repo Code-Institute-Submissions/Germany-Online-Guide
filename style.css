@@ -575,205 +575,6 @@ body {
     }
 }*/
 
-.hotel-img-container {
-    height: 450px;
-    width: 100%;
-}
-
-.hotel-steinberger-img1 {
-    height: 100%;
-    background-image: url('../assets/images/hotels/Steinberger-Frankfurt-Hotel.jpg');
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.hotel-img2 {
-    height: 100%;
-    background-image: url('../assets/images/hotels/Hotel-Ambassador.jpg');
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.hotel-img3 {
-    height: 100%;
-    background-image: url('../assets/images/hotels/Hotel_Alexander_Plaza_-_Berlin.jpg');
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.hotel-img4 {
-    height: 100%;
-    background-image: url('../assets/images/hotels/Fulda-Hotel.JPG');
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.hotel-img5 {
-    height: 100%;
-    background-image: url('../assets/images/hotels/Best_Western_Plus_Hotel_Kassel_City1.jpg');
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.hotels-bg {
-    text-align: left;
-    color: black;
-    font-family: 'Merriweather', serif;
-    
-    font-weight: bolder;
-    margin-top: 100px;
-    margin-bottom: 30px;
-}
-
-.hotels-inner-bg {
-    width: 100%;
-    background-color: #fafafa;
-    height: auto;
-    border: 1px solid black;
-}
-
-.hotels-heading {
-    text-align: center;
-    color: black;
-    font-family: 'Merriweather', serif;
-    font-weight: bolder;
-    margin-bottom: 30px;
-    font-size: 35px;
-}
-
-.hotels-p {
-    text-align: center;
-    color: black;
-    font-family: 'Merriweather', serif;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.timeline-item {
-    position: relative;
-    color: black;
-    border-left: 1px solid;
-    padding: 4em 2em 0em 2em;
-}
-
-.steinberger-list-heading1 {
-    padding: 0;
-    margin: 0;
-}
-
-.timeline-item:before {
-    content: attr(data-suites);
-    position: absolute;
-    left: 2.5em;
-    top: 3em;
-    display: block;
-    margin: 0;
-    padding: 0;
-}
-
-.timeline-item:after {
-    width: 12px;
-    height: 12px;
-    position: absolute;
-    display: block;
-    top: 2.4em;
-    left: -6px;
-    border-radius: 12px;
-    content: '';
-    background-color: black;
-
-}
-
-.office-phone-image-container {
-    position: fixed;
-    z-index: -10;
-    height: 50%;
-    margin-top: 50px;
-    background-color: blue;
-    width: 100%;
-}
-
-.office-phone-image {
-    height: 100%;
-    z-index: -9;
-    background-image: url('../assets/images/banner/office-phone.svg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.national-emergency-numbersBG {
-    width: 100%;
-    height: 750px;
-    background-color: white;
-    margin-top: 737px;
-}
-
-.national-emergency-numbers-Heading {
-    margin: 20px 0px 20px 20px;
-}
-
-.national-emergency-numbers-text {
-    display: inline-block;
-    margin-left: 20px;
-    font-size: 29px;
-}
-
-.vehicle-image-container {
-    height: 770px;
-    width: 100%;
-}
-
-.vehicle-phone-image {
-    height: 100%;
-    background-image: url('../assets/images/banner/german_police_car.jpg');
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.notfall-image-container {
-    height: 770px;
-    width: 100%;
-}
-
-.notfall-phone-image {
-    height: 100%;
-    background-image: url('../assets/images/banner/notfall.jpg');
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.emergency-wordsBG {
-    width: 100%;
-    height: 770px;
-    background-color: #f5f5f5;
-}
-
-.emergency-words-Heading {
-    text-align: center;
-    margin: 30px 0px 20px 20px;
-}
-
-.emergency-words-text {
-    display: inline-block;
-    margin-left: 20px;
-    font-size: 29px;
-}
-
-.emergency-wordsBG2 {
-    width: 100%;
-    height: 770px;
-    padding-top: 50px;
-    background-color: white;
-}
-
 /*-------------------------------------------------Gallery-------------------------------------------------*/
 
 .gallery-container {
@@ -818,8 +619,105 @@ body {
     height: 600px;
 }
 
-.image-sizes {
-    height: 650px;
+.foodCarsousel-img1 {
+    height: 100%;
+    background-image: url('../assets/images/Food/asparagus-soup.jpeg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.foodCarsousel-img2 {
+    height: 100%;
+    background-image: url('../assets/images/Food/kaesespaetzle.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.foodCarsousel-img3 {
+    height: 100%;
+    background-image: url('../assets/images/Food/kartoffelpuffer.jpeg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.foodCarsousel-img4 {
+    height: 100%;
+    background-image: url('../assets/images/Food/frankfurter-gruene-sosse.jpeg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.foodCarsousel-img5 {
+    height: 100%;
+    background-image: url('../assets/images/Food/schupfnudeln.jpeg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.foodCarsousel-img6 {
+    height: 100%;
+    background-image: url('../assets/images/Food/obatzter.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cultureCarsousel-img1 {
+    height: 100%;
+    background-image: url('../assets/images/culture/goethe-house.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cultureCarsousel-img2 {
+    height: 100%;
+    background-image: url('../assets/images/culture/mozart.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cultureCarsousel-img3 {
+    height: 100%;
+    background-image: url('../assets/images/culture/beethoven.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cultureCarsousel-img4 {
+    height: 100%;
+    background-image: url('../assets/images/culture/RichardWagner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cultureCarsousel-img5 {
+    height: 100%;
+    background-image: url('../assets/images/culture/frankfurt-architecture.jpeg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cultureCarsousel-img6 {
+    height: 100%;
+    background-image: url('../assets/images/culture/hamburg-altstadt.JPG');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cultureCarsousel-img7 {
+    height: 100%;
+    background-image: url('../assets/images/culture/terrassenufer-dresden.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -1141,7 +1039,7 @@ body {
 }
 
 .why-travel-to-germany-heading {
-    text-align: left;
+    text-align: center;
     color: black;
     font-family: 'Merriweather', serif;
     font-weight: bolder;
@@ -1150,7 +1048,7 @@ body {
 }
 
 .why-travel-to-germany-p {
-    text-align: left;
+    text-align: center;
     white-space: pre-line;
     color: black;
     font-family: 'Merriweather', serif;
@@ -1723,6 +1621,211 @@ body {
 .general-sub {
     color: AliceBlue;
 }
+
+/*-------------------------------------------------Hotels Page-------------------------------------------------*/
+
+
+.hotel-img-container {
+    height: 450px;
+    width: 100%;
+}
+
+.hotel-steinberger-img1 {
+    height: 100%;
+    background-image: url('../assets/images/hotels/Steinberger-Frankfurt-Hotel.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hotel-img2 {
+    height: 100%;
+    background-image: url('../assets/images/hotels/Hotel-Ambassador.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hotel-img3 {
+    height: 100%;
+    background-image: url('../assets/images/hotels/Hotel_Alexander_Plaza_-_Berlin.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hotel-img4 {
+    height: 100%;
+    background-image: url('../assets/images/hotels/Fulda-Hotel.JPG');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hotel-img5 {
+    height: 100%;
+    background-image: url('../assets/images/hotels/Best_Western_Plus_Hotel_Kassel_City1.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hotels-bg {
+    text-align: left;
+    color: black;
+    font-family: 'Merriweather', serif;
+
+    font-weight: bolder;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.hotels-inner-bg {
+    width: 100%;
+    background-color: #fafafa;
+    height: auto;
+    border: 1px solid black;
+}
+
+.hotels-heading {
+    text-align: center;
+    color: black;
+    font-family: 'Merriweather', serif;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+
+.hotels-p {
+    text-align: center;
+    color: black;
+    font-family: 'Merriweather', serif;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.timeline-item {
+    position: relative;
+    color: black;
+    border-left: 1px solid;
+    padding: 4em 2em 0em 2em;
+}
+
+.steinberger-list-heading1 {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:before {
+    content: attr(data-suites);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    display: block;
+    top: 2.4em;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background-color: black;
+
+}
+
+/*-------------------------------------------------Emergency Numbers Page-------------------------------------------------*/
+
+.office-phone-image-container {
+    position: fixed;
+    z-index: -10;
+    height: 50%;
+    margin-top: 50px;
+    background-color: blue;
+    width: 100%;
+}
+
+.office-phone-image {
+    height: 100%;
+    z-index: -9;
+    background-image: url('../assets/images/banner/office-phone.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.national-emergency-numbersBG {
+    width: 100%;
+    height: 750px;
+    background-color: white;
+    margin-top: 737px;
+}
+
+.national-emergency-numbers-Heading {
+    margin: 20px 0px 20px 20px;
+}
+
+.national-emergency-numbers-text {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 29px;
+}
+
+.vehicle-image-container {
+    height: 770px;
+    width: 100%;
+}
+
+.vehicle-phone-image {
+    height: 100%;
+    background-image: url('../assets/images/banner/german_police_car.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.notfall-image-container {
+    height: 770px;
+    width: 100%;
+}
+
+.notfall-phone-image {
+    height: 100%;
+    background-image: url('../assets/images/banner/notfall.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.emergency-wordsBG {
+    width: 100%;
+    height: 770px;
+    background-color: #f5f5f5;
+}
+
+.emergency-words-Heading {
+    text-align: center;
+    margin: 30px 0px 20px 20px;
+}
+
+.emergency-words-text {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 29px;
+}
+
+.emergency-wordsBG2 {
+    width: 100%;
+    height: 770px;
+    padding-top: 50px;
+    background-color: white;
+}
+
 
 /*-------------------------------------------------Media Queries-------------------------------------------------*/
 

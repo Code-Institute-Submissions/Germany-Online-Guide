@@ -116,7 +116,7 @@ body {
 }
 
 .bannerPic {
-    background-image: url('../assets/images/banner/frankf.jpg');
+    background-image: linear-gradient(rgba(1, 1, 1, .2), rgba(1, 1, 1, 0), rgba(1, 1, 1, .2)), url('../assets/images/banner/frankf.jpg');
     width: 100%;
     height: 700px;
     background-position: center;
@@ -182,45 +182,25 @@ body {
 
 @media (min-width: 576px) {
     .bannerHeading {
-        position: absolute;
-        top: 47%;
         left: 18%;
-        z-index: 999;
-        color: white;
-        font-size: 60px;
     }
 }
 
 @media (min-width: 768px) {
     .bannerHeading {
-        position: absolute;
-        top: 47%;
         left: 26%;
-        z-index: 999;
-        color: white;
-        font-size: 60px;
     }
 }
 
 @media (min-width: 992px) {
     .bannerHeading {
-        position: absolute;
-        top: 47%;
         left: 32%;
-        z-index: 999;
-        color: white;
-        font-size: 60px;
     }
 }
 
 @media (min-width: 1200px) {
     .bannerHeading {
-        position: absolute;
-        top: 47%;
         left: 36%;
-        z-index: 999;
-        color: white;
-        font-size: 60px;
     }
 }
 
@@ -557,6 +537,39 @@ body {
     background-color: #f5f5f5;
 }
 
+.landscape-pic {
+    height: 775px;
+    background-repeat-x: no-repeat;
+    background-position: center;
+    background-image: linear-gradient(rgba(1, 1, 1, .1), rgba(1, 1, 1, 0), rgba(1, 1, 1, .1)), url(../assets/images/places/img2.jpeg);
+}
+
+.landscape-pic-container {
+    width: 100%;
+    height: 775px;
+    background: aquamarine;
+    position: relative;
+}
+
+.landscape-pic-text {
+    position: absolute;
+    color: deepskyblue;
+    top: 50%;
+    left: 1%;
+}
+
+@media (min-width: 992px) {
+    .landscape-pic-text {
+        left: 7%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .landscape-pic-text {
+        left: 26%;
+    }
+}
+
 /*-------------------------------------------------Audio-------------------------------------------------*/
 
 .national-anthem-row {
@@ -641,50 +654,36 @@ body {
 
 p {
     font-size: 12px;
-    /* below 448px */
 }
 
 .germany-video {
+    object-fit: fill;
+    width: 100%;
     height: 200px;
-    /* below 448px */
 }
 
 @media only screen and (min-width: 448px) {
     p {
         font-size: 20px;
-        /* above 448px */
     }
+
     .germany-video {
-        object-fit: fill;
-        width: 100%;
-        height: 150px;
-        /* above 448px */
+
+        height: 215px;
     }
 
 }
 
 @media only screen and (min-width: 768px) {
-    .germany-video1 {
+    .germany-video {
         height: 340px;
     }
 
 }
 
 @media only screen and (min-width: 1200px) {
-    .germany-video1 {
-        object-fit: fill;
-        width: 100%;
-        height: 500px;
-    }
-    .germany-video2 {
-        object-fit: fill;
-        width: 100%;
-        height: 500px;
-    }
-    .germany-video3 {
-        object-fit: fill;
-        width: 100%;
-        height: 500px;
+    .germany-video {
+        height: 800px;
     }
 }
 
@@ -1092,30 +1091,18 @@ p {
 
 @media only screen and (min-width: 448px) {
     .timeline-item {
-        position: relative;
-        color: black;
-        border-left: 1px solid;
-        padding: 4em 2em 0em 2em;
         left: 23%;
     }
 }
 
 @media only screen and (min-width: 768px) {
     .timeline-item {
-        position: relative;
-        color: black;
-        border-left: 1px solid;
-        padding: 4em 2em 0em 2em;
         left: 45%;
     }
 }
 
 @media (min-width: 992px) {
     .timeline-item {
-        position: relative;
-        color: black;
-        border-left: 1px solid;
-        padding: 4em 2em 0em 2em;
         left: 0%;
     }
 }

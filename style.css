@@ -60,18 +60,18 @@ body {
 }
 
 .theToggle {
-        position: relative;
-        float: left;
-        padding: 9px 10px;
-        margin-top: 8px;
-        margin-right: 15px;
-        margin-bottom: 8px;
-        background-color: transparent;
-        background-image: none;
-        border: 1px solid transparent;
-        border-radius: 4px;
-        display: contents;
-    }
+    position: relative;
+    float: left;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    display: contents;
+}
 
 .dropdownTextColor {
     color: rgba(255, 255, 255, .5);
@@ -93,12 +93,12 @@ body {
 }
 
 .theNavbrand {
-        float: right;
-        height: 50px;
-        padding: 15px 15px;
-        font-size: 18px;
-        line-height: 20px;
-    }
+    float: right;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
 
 .navcolor {
     color: white;
@@ -236,8 +236,6 @@ body {
 
 /*-------------------------------------------------Gallery-------------------------------------------------*/
 
-
-
 .galleryBG {
     position: relative;
     background-color: #f5f5f5;
@@ -256,6 +254,10 @@ body {
 .card-size {
     width: 100%;
     height: 320px;
+}
+
+.gallery-place-names {
+    text-align: center;
 }
 
 /*-------------------------------------------------Carousel-------------------------------------------------*/
@@ -1088,34 +1090,34 @@ p {
     left: 7%;
 }
 
-@media  only screen and (min-width: 448px) {
+@media only screen and (min-width: 448px) {
     .timeline-item {
-    position: relative;
-    color: black;
-    border-left: 1px solid;
-    padding: 4em 2em 0em 2em;
-    left: 23%;
-}
+        position: relative;
+        color: black;
+        border-left: 1px solid;
+        padding: 4em 2em 0em 2em;
+        left: 23%;
+    }
 }
 
-@media  only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
     .timeline-item {
-    position: relative;
-    color: black;
-    border-left: 1px solid;
-    padding: 4em 2em 0em 2em;
-    left: 45%;
-}
+        position: relative;
+        color: black;
+        border-left: 1px solid;
+        padding: 4em 2em 0em 2em;
+        left: 45%;
+    }
 }
 
 @media (min-width: 992px) {
     .timeline-item {
-    position: relative;
-    color: black;
-    border-left: 1px solid;
-    padding: 4em 2em 0em 2em;
-    left: 0%;
-}
+        position: relative;
+        color: black;
+        border-left: 1px solid;
+        padding: 4em 2em 0em 2em;
+        left: 0%;
+    }
 }
 
 .timeline-item:before {
@@ -1162,7 +1164,7 @@ p {
 
 .national-emergency-numbersBG {
     width: 100%;
-    height: 750px;
+    height: auto;
     background-color: white;
     margin-top: 737px;
 }
@@ -1205,7 +1207,7 @@ p {
 
 .emergency-wordsBG {
     width: 100%;
-    height: 770px;
+    height: auto;
     background-color: #f5f5f5;
 }
 
@@ -1222,9 +1224,7 @@ p {
 
 .emergency-wordsBG2 {
     width: 100%;
-    height: 770px;
+    height: auto;
     padding-top: 50px;
     background-color: white;
 }
-
-

@@ -609,20 +609,13 @@ body {
 
 /*-------------------------------------------------Videos-------------------------------------------------*/
 
-.vid-bg1 {
+.vid-bg {
     width: 100%;
     height: auto;
     padding: 70px 0;
+    margin-top: -3px;
     background-repeat: no-repeat;
     background-color: #00499D;
-}
-
-.vid-bg2 {
-    width: 100%;
-    height: auto;
-    padding: 70px 0;
-    background-repeat: no-repeat;
-    background-color: #fafafa;
 }
 
 .vid-main-heading {
@@ -638,23 +631,13 @@ body {
     margin-right: 0px;
 }
 
-.germany-video1-heading {
-    text-align: center;
-    color: white;
-}
-
-.germany-video2-heading {
-    text-align: center;
-    color: black;
-}
-
-.language-video-heading {
+.germany-video-heading {
     text-align: center;
     color: white;
 }
 
 p {
-    font-size: 12px;
+    font-size: 28px;
 }
 
 .germany-video {
@@ -664,10 +647,6 @@ p {
 }
 
 @media only screen and (min-width: 448px) {
-    p {
-        font-size: 20px;
-    }
-
     .germany-video {
 
         height: 243px;
@@ -1161,29 +1140,30 @@ p {
 }
 
 .vehicle-image-container {
-    height: 770px;
+    height: 550px;
     width: 100%;
 }
 
 .vehicle-phone-image {
     height: 100%;
     background-image: url('../assets/images/banner/german_police_car.jpg');
-    background-position: bottom;
+    z-index: -9;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
 }
 
 .notfall-image-container {
-    height: 770px;
+    height: 550px;
     width: 100%;
 }
 
 .notfall-phone-image {
     height: 100%;
     background-image: url('../assets/images/banner/notfall.jpg');
-    background-position: bottom;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
 }
 
 .emergency-wordsBG {

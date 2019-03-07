@@ -32,6 +32,7 @@ body {
 }
 
 .nav-text-color {
+    font-family: 'Merriweather', serif;
     color: white;
 }
 
@@ -93,6 +94,7 @@ body {
 }
 
 .theNavbrand {
+    font-family: 'Merriweather', serif;
     float: right;
     height: 50px;
     padding: 15px 15px;
@@ -138,7 +140,6 @@ body {
     margin-top: 66px;
     max-width: 100%;
     height: auto;
-    width: 100% /9;
 }
 
 @keyframes animate-galleryBG {
@@ -153,6 +154,7 @@ body {
 }
 
 .bannerHeading {
+    font-family: 'Merriweather', serif;
     position: absolute;
     top: 47%;
     z-index: 999;
@@ -224,6 +226,7 @@ body {
 }
 
 .gallery-text {
+    font-family: 'Merriweather', serif;
     color: black;
 }
 
@@ -237,6 +240,7 @@ body {
 }
 
 .gallery-place-names {
+    font-family: 'Merriweather', serif;
     text-align: center;
 }
 
@@ -245,7 +249,7 @@ body {
 .blueSectionBG {
     width: 100%;
     height: auto;
-    padding-top: 40px;
+    padding: 40px 0;
     background-color: #00499D;
 }
 
@@ -359,6 +363,7 @@ body {
 }
 
 .travel-highlights-heading {
+    font-family: 'Merriweather', serif;
     text-align: center;
     color: white;
 }
@@ -392,6 +397,7 @@ body {
 }
 
 .foodtext {
+    font-family: 'Merriweather', serif;
     text-align: center;
     font-size: 20px;
 }
@@ -425,6 +431,7 @@ body {
 }
 
 .culturetext {
+    font-family: 'Merriweather', serif;
     text-align: center;
     font-size: 20px;
 }
@@ -476,7 +483,6 @@ body {
     color: black;
     font-family: 'Merriweather', serif;
     font-size: 28px;
-    font-weight: bold;
 }
 
 .why-travel-to-germany-bg {
@@ -504,7 +510,6 @@ body {
     color: black;
     font-family: 'Merriweather', serif;
     font-size: 28px;
-    font-weight: bold;
 }
 
 .the-german-culture-and-traditions-bg {
@@ -544,6 +549,8 @@ body {
     background-color: #f5f5f5;
 }
 
+/*-------------------------------------------------Landscape Picture------------------------------------------------*/
+
 .landscape-pic {
     height: 775px;
     background-repeat-x: no-repeat;
@@ -561,8 +568,9 @@ body {
 
 .landscape-pic-text {
     position: absolute;
+    font-family: 'Merriweather', serif;
     color: darkblue;
-    background-color: rgba(255,255,255,.5);
+    background-color: rgba(255, 255, 255, .5);
     top: 50%;
     border: solid;
     left: 1%;
@@ -590,6 +598,7 @@ body {
 
 .audio1-heading {
     text-align: center;
+    font-family: 'Merriweather', serif;
     margin-top: 27px;
     color: black;
     display: block;
@@ -603,8 +612,9 @@ body {
 }
 
 .audio-text {
+    font-family: 'Merriweather', serif;
     text-align: center;
-    font-size: 30px;
+    font-size: 23px;
 }
 
 /*-------------------------------------------------Videos-------------------------------------------------*/
@@ -619,6 +629,7 @@ body {
 }
 
 .vid-main-heading {
+    font-family: 'Merriweather', serif;
     text-align: center;
     text-transform: uppercase;
     padding-bottom: 40px;
@@ -632,12 +643,9 @@ body {
 }
 
 .germany-video-heading {
+    font-family: 'Merriweather', serif;
     text-align: center;
     color: white;
-}
-
-p {
-    font-size: 28px;
 }
 
 .germany-video {
@@ -646,15 +654,14 @@ p {
     height: 155px;
 }
 
-@media only screen and (min-width: 448px) {
+@media (min-width: 448px) {
     .germany-video {
-
         height: 243px;
     }
 
 }
 
-@media only screen and (min-width: 768px) {
+@media (min-width: 768px) {
     .germany-video {
         height: 360px;
     }
@@ -667,7 +674,7 @@ p {
     }
 }
 
-@media only screen and (min-width: 1200px) {
+@media (min-width: 1200px) {
     .germany-video {
         height: 900px;
     }
@@ -735,13 +742,15 @@ p {
 }
 
 .tour-heading {
+    font-family: 'Merriweather', serif;
     text-align: center;
     margin: 20px 0;
 }
 
 .infoText {
+    font-family: 'Merriweather', serif;
     text-align: center;
-    font-size: 20px;
+    font-size: 22px;
     margin: 0 auto 30px;
     font-weight: 300;
     max-width: 600px;
@@ -946,6 +955,7 @@ p {
 }
 
 .footer-contacts {
+    font-family: 'Merriweather', serif;
     display: flex;
     justify-content: flex-start;
     color: AliceBlue;
@@ -1013,13 +1023,15 @@ p {
     background-size: cover;
 }
 
-.hotels-bg {
-    text-align: left;
-    color: black;
-    font-family: 'Merriweather', serif;
-
-    font-weight: bolder;
+.hotelsHeading {
     margin-top: 100px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    text-decoration: underline;
+}
+
+.hotels-bg {
     margin-bottom: 30px;
 }
 
@@ -1032,20 +1044,19 @@ p {
 }
 
 .hotels-heading {
+    font-family: 'Merriweather', serif;
     text-align: center;
     color: black;
-    font-family: 'Merriweather', serif;
-    font-weight: bolder;
+    font-weight: bold;
     margin-bottom: 30px;
     font-size: 35px;
 }
 
 .hotels-p {
+    font-family: 'Merriweather', serif;
     text-align: center;
     color: black;
-    font-family: 'Merriweather', serif;
     font-size: 28px;
-    font-weight: bold;
     padding: 0px 15px
 }
 
@@ -1062,13 +1073,13 @@ p {
     left: 7%;
 }
 
-@media only screen and (min-width: 448px) {
+@media (min-width: 576px) {
     .timeline-item {
         left: 23%;
     }
 }
 
-@media only screen and (min-width: 768px) {
+@media (min-width: 768px) {
     .timeline-item {
         left: 45%;
     }
@@ -1126,17 +1137,20 @@ p {
     width: 100%;
     height: auto;
     background-color: white;
-    margin-top: 600px;
+    margin-top: 475px;
 }
 
 .national-emergency-numbers-Heading {
+    font-family: 'Merriweather', serif;
+    font-weight: bolder;
     margin: 20px 0px 20px 20px;
 }
 
 .national-emergency-numbers-text {
+    font-family: 'Merriweather', serif;
     display: inline-block;
     margin-left: 20px;
-    font-size: 29px;
+    font-size: 20px;
 }
 
 .vehicle-image-container {
@@ -1144,10 +1158,24 @@ p {
     width: 100%;
 }
 
+@media (min-width: 1200px) {
+
+    .national-emergency-numbersBG {
+        margin-top: 775px;
+    }
+
+    .national-emergency-numbers-text {
+        font-size: 24px;
+    }
+
+    .vehicle-image-container {
+        height: 900px;
+    }
+}
+
 .vehicle-phone-image {
     height: 100%;
     background-image: url('../assets/images/banner/german_police_car.jpg');
-    z-index: -9;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -1156,6 +1184,12 @@ p {
 .notfall-image-container {
     height: 550px;
     width: 100%;
+}
+
+@media (min-width: 1200px) {
+    .notfall-image-container {
+        height: 900px;
+    }
 }
 
 .notfall-phone-image {
@@ -1172,20 +1206,8 @@ p {
     background-color: #f5f5f5;
 }
 
-.emergency-words-Heading {
-    text-align: center;
-    margin: 30px 0px 20px 20px;
-}
-
-.emergency-words-text {
-    display: inline-block;
-    margin-left: 20px;
-    font-size: 29px;
-}
-
 .emergency-wordsBG2 {
     width: 100%;
     height: auto;
-    padding-top: 50px;
-    background-color: white;
+    background-color: #fff;
 }

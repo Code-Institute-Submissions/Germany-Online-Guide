@@ -31,9 +31,13 @@ body {
     opacity: 0.5;
 }
 
-.nav-text-color {
+.navbar-dark .navbar-nav .nav-link {
     font-family: 'Merriweather', serif;
     color: white;
+}
+
+.btn {
+    margin-top: 6px;
 }
 
 .dropdown-menu-color {
@@ -362,6 +366,76 @@ body {
     background-size: cover;
 }
 
+@media (min-width: 1200px) {
+    .foodCarsousel-img1 {
+        background-size: 100% 100%;
+    }
+
+    .foodCarsousel-img2 {
+        background-size: 100% 100%;
+    }
+
+    .foodCarsousel-img3 {
+        background-size: 100% 100%;
+    }
+
+    .foodCarsousel-img4 {
+        background-size: 100% 100%;
+    }
+
+    .foodCarsousel-img5 {
+        background-size: 100% 100%;
+    }
+
+    .foodCarsousel-img6 {
+        background-size: 100% 100%;
+    }
+
+    .food-image-sizes {
+        height: 700px;
+    }
+
+    .foodCarouselSize {
+        height: 700px;
+    }
+
+    .cultureCarsousel-img1 {
+        background-size: 60%;
+    }
+
+    .cultureCarsousel-img2 {
+        background-size: 60%;
+    }
+
+    .cultureCarsousel-img3 {
+        background-size: 60%;
+    }
+
+    .cultureCarsousel-img4 {
+        background-size: 60%;
+    }
+
+    .cultureCarsousel-img5 {
+        background-size: 100% 100%;
+    }
+
+    .cultureCarsousel-img6 {
+        background-size: 100% 100%;
+    }
+
+    .cultureCarsousel-img7 {
+        background-size: 100% 100%;
+    }
+
+    .cultureCarouselSize {
+        height: 700px;
+    }
+
+    .culture-image-sizes {
+        height: 700px;
+    }
+}
+
 .travel-highlights-heading {
     font-family: 'Merriweather', serif;
     text-align: center;
@@ -384,7 +458,6 @@ body {
 .foodCarouselSize {
     width: 100%;
     height: 350px;
-    background: cover;
 }
 
 .food-carousel-BGbox {
@@ -393,7 +466,6 @@ body {
     position: relative;
     background-color: white;
     padding: 0;
-    overflow-y: scroll;
 }
 
 .foodtext {
@@ -404,12 +476,11 @@ body {
 
 .cultureCarouselSize {
     width: 100%;
-    height: 325px;
-    background: cover;
+    height: 350px;
 }
 
 .culture-image-sizes {
-    height: 325px;
+    height: 350px;
     background-size: cover;
 }
 
@@ -483,6 +554,7 @@ body {
     color: black;
     font-family: 'Merriweather', serif;
     font-size: 28px;
+    font-weight: 300;
 }
 
 .why-travel-to-germany-bg {
@@ -510,6 +582,7 @@ body {
     color: black;
     font-family: 'Merriweather', serif;
     font-size: 28px;
+    font-weight: 300;
 }
 
 .the-german-culture-and-traditions-bg {
@@ -561,9 +634,15 @@ body {
 .landscape-pic-container {
     width: 100%;
     height: 775px;
-    background: aquamarine;
     position: relative;
     padding: 0;
+}
+
+@media (min-width: 1200px) {
+    .landscape-pic-container {
+
+        background: #00499D;
+    }
 }
 
 .landscape-pic-text {
@@ -571,20 +650,20 @@ body {
     font-family: 'Merriweather', serif;
     color: darkblue;
     background-color: rgba(255, 255, 255, .5);
-    top: 50%;
+    top: 88.4%;
     border: solid;
     left: 1%;
 }
 
 @media (min-width: 992px) {
     .landscape-pic-text {
-        left: 7%;
+        left: 26%;
     }
 }
 
 @media (min-width: 1200px) {
     .landscape-pic-text {
-        left: 26%;
+        left: 33%;
     }
 }
 
@@ -1039,7 +1118,6 @@ body {
     width: 100%;
     background-color: #fafafa;
     height: auto;
-    border: 1px solid black;
     padding-bottom: 10px;
 }
 
@@ -1048,6 +1126,7 @@ body {
     text-align: center;
     color: black;
     font-weight: bold;
+    margin-top: 20px;
     margin-bottom: 30px;
     font-size: 35px;
 }
@@ -1117,16 +1196,14 @@ body {
 /*-------------------------------------------------Emergency Numbers Page-------------------------------------------------*/
 
 .office-phone-image-container {
-    position: absolute;
-    z-index: -10;
-    height: 43%;
-    margin-top: 50px;
-    background-color: blue;
+    height: 550px;
+    width: 100%;
+    margin-top: 68px;
+    background-color:
 }
 
 .office-phone-image {
     height: 100%;
-    z-index: -9;
     background-image: url('../assets/images/banner/office-phone.svg');
     background-position: center;
     background-repeat: no-repeat;
@@ -1137,7 +1214,6 @@ body {
     width: 100%;
     height: auto;
     background-color: white;
-    margin-top: 475px;
 }
 
 .national-emergency-numbers-Heading {
@@ -1159,10 +1235,6 @@ body {
 }
 
 @media (min-width: 1200px) {
-
-    .national-emergency-numbersBG {
-        margin-top: 775px;
-    }
 
     .national-emergency-numbers-text {
         font-size: 24px;

@@ -1,4 +1,3 @@
-                        
                             function handleReadMore() {
                                 var dots = document.getElementById("dots");
                                 var moreText = document.getElementById("more");
@@ -15,6 +14,4 @@
                                     moreText.style.display = "inline";
                                 }
                             }
-                        
-                        
-        
+                            

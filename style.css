@@ -10,6 +10,21 @@ body {
     padding: 0;
 }
 
+.h2,
+h2 {
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.h2 {
+    font-weight: 300;
+}
+
+.h3,
+h3 {
+    font-size: 30px;
+}
+
 /*-------------------------------------------------Navbar-------------------------------------------------*/
 
 /*-------------------------Logo-------------------------*/
@@ -33,11 +48,23 @@ body {
 
 .navbar-dark .navbar-nav .nav-link {
     font-family: 'Merriweather', serif;
-    color: white;
 }
 
 .btn {
-    margin-top: 6px;
+    margin-top: 4px;
+    font-size: 19px;
+}
+
+.btn-dark {
+    color: rgba(255,255,255,.5);
+    background-color: transparent;
+    border-color: transparent;
+    font-family: 'Merrieweather', serif;
+}
+
+.btn-dark:hover {
+    color: rgba(255,255,255,.75);
+    
 }
 
 .dropdown-menu-color {
@@ -164,6 +191,8 @@ body {
     z-index: 999;
     color: white;
     font-size: 60px;
+    text-decoration: underline;
+    font-weight: 700;
 }
 
 .arrowDown {
@@ -229,9 +258,19 @@ body {
     padding-bottom: 30px;
 }
 
+.gallery-heading {
+    font-family: 'Merriweather', serif;
+    color: black;
+    font-size: 40px;
+    font-weight: 300;
+    text-decoration: underline;
+}
+
 .gallery-text {
     font-family: 'Merriweather', serif;
     color: black;
+    font-size: 28px;
+    font-weight: 300;
 }
 
 .card {
@@ -543,7 +582,7 @@ body {
     text-align: center;
     color: black;
     font-family: 'Merriweather', serif;
-    font-weight: bolder;
+    font-weight: 300;
     margin-bottom: 30px;
     font-size: 35px;
 }
@@ -630,6 +669,8 @@ body {
 .audio1-heading {
     text-align: center;
     font-family: 'Merriweather', serif;
+    font-weight: 300;
+    font-size: 35px;
     margin-top: 27px;
     color: black;
     display: block;
@@ -645,7 +686,8 @@ body {
 .audio-text {
     font-family: 'Merriweather', serif;
     text-align: center;
-    font-size: 23px;
+    font-size: 28px;
+    font-weight: 300;
 }
 
 /*-------------------------------------------------Videos-------------------------------------------------*/
@@ -665,6 +707,8 @@ body {
     text-transform: uppercase;
     padding-bottom: 40px;
     color: white;
+    font-weight: 300;
+    font-size: 35px;
 }
 
 .vid-space {
@@ -673,10 +717,12 @@ body {
     margin-right: 0px;
 }
 
-.germany-video-heading {
+.video-heading {
     font-family: 'Merriweather', serif;
     text-align: center;
     color: white;
+    font-weight: 300;
+    font-size: 30px;
 }
 
 .germany-video {
@@ -721,6 +767,10 @@ body {
     padding: 50px 0;
 }
 
+.infoMainHeading {
+    font-family: 'Merriweather', serif;
+}
+
 .eatBox {
     width: 100%;
     height: auto;
@@ -735,8 +785,11 @@ body {
     margin-top: 20px;
 }
 
-.restaurants-heading {
+.info-headings {
     margin: 20px 0;
+    font-weight: 300;
+    font-family: 'Merriweather', serif;
+
 }
 
 .shopBox {
@@ -753,11 +806,6 @@ body {
     margin-top: 20px;
 }
 
-.shop-heading {
-    text-align: center;
-    margin: 20px 0;
-}
-
 .tourBox {
     width: 100%;
     height: auto;
@@ -772,15 +820,8 @@ body {
     margin-top: 20px;
 }
 
-.tour-heading {
-    font-family: 'Merriweather', serif;
-    text-align: center;
-    margin: 20px 0;
-}
-
 .infoText {
     font-family: 'Merriweather', serif;
-    text-align: center;
     font-size: 22px;
     margin: 0 auto 30px;
     font-weight: 300;
@@ -913,8 +954,18 @@ body {
     display: flex;
     flex-direction: row;
     width: 100%;
+    height: 140px;
+    background-image: linear-gradient(black, #262626);
+}
+
+@media (min-width: 768px){
+    .footer-bg {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
     height: 178px;
     background-image: linear-gradient(black, #262626);
+}
 }
 
 .fa-twitter {
@@ -1057,6 +1108,8 @@ body {
 .hotelsMainHeading {
     margin-top: 100px;
     margin-bottom: 30px;
+    font-weight: 300;
+    font-size: 40px;
     text-align: center;
     font-family: 'Merriweather', serif;
     text-decoration: underline;
@@ -1077,7 +1130,7 @@ body {
     font-family: 'Merriweather', serif;
     text-align: center;
     color: black;
-    font-weight: bold;
+    font-weight: 300;
     margin-top: 20px;
     margin-bottom: 30px;
     font-size: 35px;
@@ -1153,15 +1206,17 @@ body {
 
 .national-emergency-numbers-Heading {
     font-family: 'Merriweather', serif;
-    font-weight: bolder;
+    font-weight: 300;
     margin: 20px 0px 20px 20px;
+    font-size: 35px;
 }
 
 .national-emergency-numbers-text {
     font-family: 'Merriweather', serif;
     display: inline-block;
     margin-left: 20px;
-    font-size: 20px;
+    font-weight: 300;
+    font-size: 28px;
 }
 
 .vehicle-image-container {
@@ -1170,11 +1225,6 @@ body {
 }
 
 @media (min-width: 1200px) {
-
-    .national-emergency-numbers-text {
-        font-size: 24px;
-    }
-
     .vehicle-image-container {
         height: 900px;
     }
@@ -1211,10 +1261,4 @@ body {
     width: 100%;
     height: auto;
     background-color: #f5f5f5;
-}
-
-.emergency-wordsBG2 {
-    width: 100%;
-    height: auto;
-    background-color: #fff;
 }

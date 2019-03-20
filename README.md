@@ -31,6 +31,8 @@ To conclude, this website is an online guide to Germany, which gives a user, who
 7. As a traveller, I would like to know emergency numbers, which I could use in emergency situations
 8. As a traveller, I would like to learn important words in the country's national language that I could use to communicate in emergency situations
 
+
+
 Features
 
 Existing Features
@@ -67,8 +69,180 @@ emergency-contacts.html
 - A list of German emergency words
     - Tourists could use those words in emergency situations in Germany, if they learn them or have them at hand
 
-Features to be implementend in the future
+Features to be implemented in the future
 
 - Javascript
     - To have a section to submit a form that indicates age and the amount of people that want require hotel rooms, which would then link to a website 
 
+Features left to implement
+
+- None
+
+
+
+Tech Used 
+
+- HTML
+    - This was used as a markup for the formating of the page layouts, through HTML tags
+
+- CSS
+    - This was used in order to style the HTML elements of the webpage
+    
+- Bootstrap
+    - https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css
+        - This was used for the styling of the webpage, using mostly its grid system, navigation bar codes and carousel codes
+    - https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css
+        - This was used to make a gallery on the 'Media' page
+    
+- Hover 
+    - https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css
+        - This was used for the hover effects in the navigation bars 
+
+- Font Awesome
+    - https://use.fontawesome.com/releases/v5.7.2/css/all.css
+        - This was used for the universal fonts, which I used as icons on the website
+        
+- HTML Validator
+    - https://validator.w3.org/nu/?doc=https%3A%2F%2Fgermany-rian1010.c9users.io%2Femergency-contacts.html
+        - This was used to check mistakes I made in my HTML codes
+
+
+
+Testing
+
+Overall
+
+index.html
+
+- Got to the 'Home' page
+- Click on the carousel indicators, which are the lines at the bottom of each picture that ae supposed to make it possible for a user to view multiple pictures
+- Try it out on different sizes and browsers because then the column sizes change
+- Click on 'here', which there are three of, in the information secetion to open up three linked sites on new tabs
+
+media.html
+
+- Go to the 'Media' page 
+- Click on the pictures
+- Press on the right and left arrows
+- Scroll down the page to the audio file
+- Play the audio file
+- Have the national anthem be played aloud
+- Scroll down to the videos 
+- Click on each video and wait for them to load
+- Have a friend check the same things
+- Repeat these on a different browser
+
+hotels.html
+
+- Go to the 'Hotels' page
+- Click on 'here', which is written in each four sections
+- Open the linked websites up on new tabs
+
+emergency-contacts.html
+
+- Go to the 'Emergency Contacts' page
+- Click on 'here' to have a website opened up on a new tab
+
+Navigation and Footer
+
+- Navigation
+    - Click on each menu item to make sure that they work
+    - Check if each item opens up the correct page
+    - Have a friend try it out too
+- Footer
+    - Social Media Links
+        - Click on each icon to make sure that each link opens on a separate tab
+        - Make sure that the expected links open up
+        - Have a friend try it out too
+    - Contacts 
+        - Click on 'Emergency Contacts' and make sure it leads to emergency-contacts.html
+        - Have a friend try it out too
+
+Mobile Responsive
+
+- The live preview was used to check the devt tools and the different screen sizes of each page
+
+
+
+Bugs/Problems encountered
+
+- Mobile responsiveness had some issues, when viewing 'inspect' to see the different screen sizes
+    - The way I set the backgrounds of some sections caused them not to fill the entire screen on different devices, so I changed the codes
+- My mentor told me that my bootstrap codes were formated wrongly
+    - I repositioned the rows, columns and classes for the backgrounds of almost each section in the HTML codes
+
+
+
+Deployment
+I pushed my Cloud9 workspace to my Github repository called Germany-Online-Guide through the command line. I did not use it so often at the beginning of my project
+however, later as I kept progressing through my project, I was told to use it after almost each change I make. So, I have done so, until I finished it. 
+My Github repository can be found <a href="https://github.com/Rian1010/Germany-Online-Guide">here</a>.
+
+
+
+Credits
+
+Media  
+
+Front page
+- The photo of Frankfurt in the front page of the homepage was obtained from 
+
+Image in the 'About Germany' Section
+- The phote of Germany with the colors of the German flag was obtained from <a href="https://en.wikipedia.org/wiki/File:Flag_map_of_Germany.svg">Wikipedia</a>
+
+The food carousel
+- The photos in the food carousel were obtained from the following websites:
+    - <a href="https://de.wikipedia.org/wiki/Datei:Spargel-Suppe_(asparagus_soup).jpg">Wikipedia</a>
+    - <a href="https://de.wikipedia.org/wiki/Datei:K%C3%A4sesp%C3%A4tzle.jpg">Wikipedia</a>
+    - <a href="https://pixabay.com/de/photos/reibekuchen-kartoffelpuffer-468983/">Pixabay</a>
+    -  
+    - k
+
+
+The culture carousel
+- The photos in the culture carousel were obtained from the following websites:
+    -  <a href="https://de.m.wikipedia.org/wiki/Datei:Goethe-Haus_in_Frankfurt_am_Main.jpg">Wikipedia</a>
+    -  
+    -  
+    -  
+    -  <a href="https://www.pexels.com/photo/architecture-church-culture-frankfurt-372316/">Pixabay</a>
+    -  <a href="https://commons.wikimedia.org/wiki/File:2013-05-24_09-01-36_Germany_Hamburg_Hamburg_Altstadt.JPG">Wikipedia</a>
+    -  <a href="https://pixabay.com/photos/dresden-germany-terrassenufer-2362953/">Pixabay</a>
+
+Image in the 'Why Travel to Germany?' section
+- The image was obtained from a friend, who had this picture taken by his co-worker
+
+Image above the 'Information' section 
+- The photo was obtained from myself, as I have taken the picture myself
+
+Gallery in media.html
+- The photos in the gallery were obtained from the following websites:
+    - <a href="https://commons.wikimedia.org/wiki/File:Reichstag_May_09.jpg">Wikipedia</a>
+    - 
+    - 
+    - <a href="https://www.maxpixel.net/Sky-Fulda-High-Hill-The-Milseburg-Mountain-Clouds-2789195">Max Pixel</a>
+    - <a href="https://www.flickr.com/photos/kplanz/6510651189">Flickr</a>
+    - <a href="https://commons.wikimedia.org/wiki/File:Hamburg_Rathaus.jpg">Wikipedia</a>
+    - <a href="https://pixabay.com/photos/frankfurt-am-main-germany-sunset-2263351/">Pixabay</a>
+    - The picture of Offenbach am Main was obtained from myself, as I have taken the picture
+    - <a href="https://pixabay.com/de/photos/m%C3%BCnchen-olympiastadion-olympiapark-2516492/">Pixabay</a>
+
+Audio File in media.html
+- The audio file was obtained from <a href="https://archive.org/details/GermanNationalAnthemDasDeutschlandliedDEEN">Archive</a>
+
+Videos in media.html
+- The videos that are shown in the gallery were obtained from the following YouTube channels: 
+    - <a href="https://www.youtube.com/watch?v=06YvNPAD2lg">Dr. Ludwig</a>
+    - <a href="https://www.youtube.com/watch?v=HXJtIBXE1vQ">Dominik Schleuter</a>
+    - <a href="https://www.youtube.com/watch?v=hI7Ay8iR2Q8">Linguamaria</a>
+
+Images in the hotels.html
+- The image of the Steigenberger Frankfurter Hof was obtained from <a href="https://de.wikipedia.org/wiki/Datei:Frankfurt_Steigenberger_Frankfurter_Hof.20150405.jpg">Wikipedia</a>
+- The image of the Hotel Ambassador Hamburg-Hammerbrook was obtained from <a href="https://commons.wikimedia.org/wiki/File:Hotel_Ambassador_Hamburg-Hammerbrook_01.jpg">Wikipedia</a>
+- The image of the Hotel Hotel Alexander Plaze was obtained from <a href="https://commons.wikimedia.org/wiki/File:Hotel_Alexander_Plaza_-_Berlin.jpg">Wikipedia</a>
+- The image of the Goldener Karpfen - Romantik Hotel & Restaurant was obtained from <a href="https://commons.wikimedia.org/wiki/File:Fulda_-_Geb%C3%A4ude_Simpliziusbrunnen_1_-_Front.JPG">Wikipedia</a>
+
+Images in the emergency-contacts.html
+- The image of the woman on the phone at the top of the page was obtained from <a href="https://pixabay.com/de/vectors/sekret%C3%A4rin-telefon-b%C3%BCro-silhouette-3396516/">Pixabay</a>
+- The image of the police car in the middle of the page was obtained from <a href="https://commons.wikimedia.org/wiki/File:Typical_German_police_car.jpg">Wikipedia</a>
+- 

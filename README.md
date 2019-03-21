@@ -195,16 +195,15 @@ The food carousel
     - <a href="https://de.wikipedia.org/wiki/Datei:Spargel-Suppe_(asparagus_soup).jpg">Wikipedia</a>
     - <a href="https://de.wikipedia.org/wiki/Datei:K%C3%A4sesp%C3%A4tzle.jpg">Wikipedia</a>
     - <a href="https://pixabay.com/de/photos/reibekuchen-kartoffelpuffer-468983/">Pixabay</a>
-    -  
-    - k
-
+    - <a href="https://als.wikipedia.org/wiki/Schupfnudeln">Wikipedia</a>
+    - <a href="https://pxhere.com/en/photo/771094">pxhere</a>
 
 The culture carousel
 - The photos in the culture carousel were obtained from the following websites:
     -  <a href="https://de.m.wikipedia.org/wiki/Datei:Goethe-Haus_in_Frankfurt_am_Main.jpg">Wikipedia</a>
-    -  
-    -  
-    -  
+    -  <a href="https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart">Wikipedia</a>
+    -  <a href="https://de.wikipedia.org/wiki/Ludwig_van_Beethoven">Wikipedia</a>
+    -  <a href="https://en.wikipedia.org/wiki/File:RichardWagner.jpg">Wikipedia</a>
     -  <a href="https://www.pexels.com/photo/architecture-church-culture-frankfurt-372316/">Pixabay</a>
     -  <a href="https://commons.wikimedia.org/wiki/File:2013-05-24_09-01-36_Germany_Hamburg_Hamburg_Altstadt.JPG">Wikipedia</a>
     -  <a href="https://pixabay.com/photos/dresden-germany-terrassenufer-2362953/">Pixabay</a>
@@ -218,8 +217,8 @@ Image above the 'Information' section
 Gallery in media.html
 - The photos in the gallery were obtained from the following websites:
     - <a href="https://commons.wikimedia.org/wiki/File:Reichstag_May_09.jpg">Wikipedia</a>
-    - 
-    - 
+    - <a href="https://de.wikipedia.org/wiki/Datei:Wasserspiele_Kassel-Wilhelmsh%C3%B6he_2011_von_oben-1.jpg">Wikipedia</a>
+    - <a href="https://www.maxpixel.net/Neuschwanstein-Castle-Germany-Bavaria-Famous-2243447">Max Pixel</a>
     - <a href="https://www.maxpixel.net/Sky-Fulda-High-Hill-The-Milseburg-Mountain-Clouds-2789195">Max Pixel</a>
     - <a href="https://www.flickr.com/photos/kplanz/6510651189">Flickr</a>
     - <a href="https://commons.wikimedia.org/wiki/File:Hamburg_Rathaus.jpg">Wikipedia</a>

@@ -158,7 +158,7 @@ I tested some design for the website, throughout the procedure of my project and
         * Click on 'Emergency Contacts' and make sure it leads to emergency-contacts.html
         * Have a friend try it out too
 
-<h3>Mobile Responsive</h3>
+###Mobile Responsives
 
 * The live preview was used to check the devt tools and the different screen sizes of each page
 
@@ -174,7 +174,7 @@ I tested some design for the website, throughout the procedure of my project and
 ##Deployment
 I pushed my Cloud9 workspace to my Github repository called Germany-Online-Guide through the command line. I did not use it so often at the beginning of my project
 however, later as I kept progressing through my project, I was told to use it after almost each change I make. So, I have done so, until I finished it. 
-My Github repository can be found <a href="https://github.com/Rian1010/Germany-Online-Guide">here</a>.
+My Github repository can be found [here](https://github.com/Rian1010/Germany-Online-Guide).
 ###Steps on how to push it:
 1. git add .
 2. git commit -m "text input"

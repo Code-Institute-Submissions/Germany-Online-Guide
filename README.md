@@ -1,11 +1,13 @@
-Germany Online Guide
+#README.md
+
+##Germany Online Guide
  
 My project focuses on Germany and its beautiful places, attractions, culture and its delicious food. 
 It is a website that is aimed towards travellers, who are looking for interesting places to visit, are ready to get inspired by a new culture and 
 are trying to find comfortable hotels and who want to have German emergency informations for safety. 
 
 
-UX
+##UX
 
 Once the page is opened, a user is shown the homepage, on which one can see a beautiful cityscape to have a first impression on how a big city
 in Germany can look like. Then, one is lead to scroll down by an animated arrow that points downwards, to explore more about Germany and the German
@@ -14,7 +16,7 @@ that many tourists like to visit. As a result, the homepage is the most importan
 and of how wide of a variety of attractions, cultural knowledge, places and traditional meals there is to discover. 
 
 Afterwards, the user is lead to the media page by clicking on a text on the homepage, in which I linked it, or one could simply click on 'Media' in the menu bar. 
-On there, one can find a gallery of beautiful land- and cityscapes in Germany, listen to an audio of the German national anthem and watch videos to see beautiful parts of 
+On there, one can find a gallery of beautiful land* and cityscapes in Germany, listen to an audio of the German national anthem and watch videos to see beautiful parts of 
 famous German places and to learn 40 important German words that one could use in Germany. This page gives a user a broader idea of how beautiful germany is, and helps one to 
 get by in Germany, as a tourist. Furthermore, one who is then interested to visit Germany, can click on the 'Hotels' section in the menu bar to find examples of luxurious hotels 
 in Germany and if they press on 'Emergency Contacts' in the footer or in the dropdown of the button called 'Contacts' in the menu bars, a user can find important German emergency numbers
@@ -32,216 +34,227 @@ To conclude, this website is an online guide to Germany, which gives a user, who
 8. As a traveller, I would like to learn important words in the country's national language that I could use to communicate in emergency situations
 
 
+##Features
 
-Features
+###Existing Features
 
-Existing Features
+####index.html
 
-index.html
+*  Eye catching front page
+    *  A beautiful cityscape of Frankfurt with inviting text for a user to discover interesting informations about Germany
+*  Information on the country, its traditional food and culture
+    *  Sections with texts with informations about Germany for tourists, the German language and culture and traditions, and also historical pictures and images of are displayed in a carousel
+*  Pictures of beautiful German places
+    *  A link to the gallery with German images that are on the media page, is shown on a landscape picture
+*  Informations on interesting touristic places to visit
+    *  Informations of popular German restaurants, shopping street and good tours are offered with more linked websites for assistance for more informations and bookings
 
-- Eye catching front page
-    - A beautiful cityscape of Frankfurt with inviting text for a user to discover interesting informations about Germany
-- Information on the country, its traditional food and culture
-    - Sections with texts with informations about Germany for tourists, the German language and culture and traditions, and also historical pictures and images of are displayed in a carousel
-- Pictures of beautiful German places
-    - A link to the gallery with German images that are on the media page, is shown on a landscape picture
-- Informations on interesting touristic places to visit
-    - Informations of popular German restaurants, shopping street and good tours are offered with more linked websites for assistance for more informations and bookings
+####media.html
 
-media.html
+*  Photo Gallery
+    *  Images of modern and beautiful places in Germany that are pleasing to the eye
+*  Audio file of the Germany national anthem
+    *  The national anthem, which plays a big role in the culture, can be listened to. 
+*  German videos 
+    *  Videos of more exciting German places are shown in the long videos and a user could even learn 40 common German words by watching one of those videos, which they could use as tourists in Germany
 
-- Photo Gallery
-    - Images of modern and beautiful places in Germany that are pleasing to the eye
-- Audio file of the Germany national anthem
-    - The national anthem, which plays a big role in the culture, can be listened to. 
-- German videos 
-    - Videos of more exciting German places are shown in the long videos and a user could even learn 40 common German words by watching one of those videos, which they could use as tourists in Germany
+####hotels.html
 
-hotels.html
+*  A list of hotels
+    *  A user can find a few examples of luxurious German hotels and are lead to other websites for more informations and bookings
 
-- A list of hotels
-    - A user can find a few examples of luxurious German hotels and are lead to other websites for more informations and bookings
+####emergency-contacts.html
 
-emergency-contacts.html
+*  A list of emergency numbers
+    *  There are important emergency numbers, which a user could utilize in urgent situations, in Germany
+*  A list of German emergency words
+    *  Tourists could use those words in emergency situations in Germany, if they learn them or have them at hand
 
-- A list of emergency numbers
-    - There are important emergency numbers, which a user could utilize in urgent situations, in Germany
-- A list of German emergency words
-    - Tourists could use those words in emergency situations in Germany, if they learn them or have them at hand
+###Features to be implemented in the future
 
-Features to be implemented in the future
+*  Javascript
+    *  To have a section to submit a form that indicates age and the amount of people that want require hotel rooms, which would then link to a website 
 
-- Javascript
-    - To have a section to submit a form that indicates age and the amount of people that want require hotel rooms, which would then link to a website 
+###Features left to implement
 
-Features left to implement
-
-- None
-
+*  None
 
 
-Tech Used 
+##Tech Used
 
-- HTML
-    - This was used as a markup for the formating of the page layouts, through HTML tags
+*  HTML
+    *  This was used as a markup for the formating of the page layouts, through HTML tags
 
-- CSS
-    - This was used in order to style the HTML elements of the webpage
+*  CSS
+    *  This was used in order to style the HTML elements of the webpage
     
-- Bootstrap
-    - https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css
-        - This was used for the styling of the webpage, using mostly its grid system, navigation bar codes and carousel codes
-    - https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css
-        - This was used to make a gallery on the 'Media' page
+*  Bootstrap
+    *  https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css
+        *  This was used for the styling of the webpage, using mostly its grid system, navigation bar codes and carousel codes
+    *  https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css
+        *  This was used to make a gallery on the 'Media' page
     
-- Hover 
-    - https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css
-        - This was used for the hover effects in the navigation bars 
+*  Hover 
+    *  https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css
+        *  This was used for the hover effects in the navigation bars 
 
-- Font Awesome
-    - https://use.fontawesome.com/releases/v5.7.2/css/all.css
-        - This was used for the universal fonts, which I used as icons on the website
+*  Font Awesome
+    *  https://use.fontawesome.com/releases/v5.7.2/css/all.css
+        *  This was used for the universal fonts, which I used as icons on the website
         
-- HTML Validator
-    - https://validator.w3.org/nu/?doc=https%3A%2F%2Fgermany-rian1010.c9users.io%2Femergency-contacts.html
-        - This was used to check mistakes I made in my HTML codes
+*  HTML Validator
+    *  https://validator.w3.org/nu/?doc=https%3A%2F%2Fgermany-rian1010.c9users.io%2Femergency-contacts.html
+        *  This was used to check mistakes I made in my HTML codes
 
 
+##Testing
 
-Testing
+###Overall
+I tested some design for the website, throughout the procedure of my project and improved them along the way. 
 
-Overall
+###index.html
 
-index.html
+*  Got to the 'Home' page
+* Click on the carousel indicators, which are the lines at the bottom of each picture that ae supposed to make it possible for a user to view multiple pictures
+* Try it out on different sizes and browsers because then the column sizes change
+* Click on 'here', which there are three of, in the information secetion to open up three linked sites on new tabs
 
-- Got to the 'Home' page
-- Click on the carousel indicators, which are the lines at the bottom of each picture that ae supposed to make it possible for a user to view multiple pictures
-- Try it out on different sizes and browsers because then the column sizes change
-- Click on 'here', which there are three of, in the information secetion to open up three linked sites on new tabs
+###media.html
 
-media.html
+* Go to the 'Media' page 
+* Click on the pictures
+* Press on the right and left arrows
+* Scroll down the page to the audio file
+* Play the audio file
+* Have the national anthem be played aloud
+* Scroll down to the videos 
+* Click on each video and wait for them to load
+* Have a friend check the same things
+* Repeat these on a different browser
 
-- Go to the 'Media' page 
-- Click on the pictures
-- Press on the right and left arrows
-- Scroll down the page to the audio file
-- Play the audio file
-- Have the national anthem be played aloud
-- Scroll down to the videos 
-- Click on each video and wait for them to load
-- Have a friend check the same things
-- Repeat these on a different browser
+###hotels.html
 
-hotels.html
+* Go to the 'Hotels' page
+* Click on 'here', which is written in each four sections
+* Open the linked websites up on new tabs
 
-- Go to the 'Hotels' page
-- Click on 'here', which is written in each four sections
-- Open the linked websites up on new tabs
+###emergency-contacts.html
 
-emergency-contacts.html
+* Go to the 'Emergency Contacts' page
+* Click on 'here' to have a website opened up on a new tab
 
-- Go to the 'Emergency Contacts' page
-- Click on 'here' to have a website opened up on a new tab
+###Navigation and Footer
 
-Navigation and Footer
+* Navigation
+    * Click on each menu item to make sure that they work
+    * Check if each item opens up the correct page
+    * Have a friend try it out too
+* Footer
+    * Social Media Links
+        * Click on each icon to make sure that each link opens on a separate tab
+        * Make sure that the expected links open up
+        * Have a friend try it out too
+    * Contacts 
+        * Click on 'Emergency Contacts' and make sure it leads to emergency-contacts.html
+        * Have a friend try it out too
 
-- Navigation
-    - Click on each menu item to make sure that they work
-    - Check if each item opens up the correct page
-    - Have a friend try it out too
-- Footer
-    - Social Media Links
-        - Click on each icon to make sure that each link opens on a separate tab
-        - Make sure that the expected links open up
-        - Have a friend try it out too
-    - Contacts 
-        - Click on 'Emergency Contacts' and make sure it leads to emergency-contacts.html
-        - Have a friend try it out too
+<h3>Mobile Responsive</h3>
 
-Mobile Responsive
-
-- The live preview was used to check the devt tools and the different screen sizes of each page
-
-
-
-Bugs/Problems encountered
-
-- Mobile responsiveness had some issues, when viewing 'inspect' to see the different screen sizes
-    - The way I set the backgrounds of some sections caused them not to fill the entire screen on different devices, so I changed the codes
-- My mentor told me that my bootstrap codes were formated wrongly
-    - I repositioned the rows, columns and classes for the backgrounds of almost each section in the HTML codes
+* The live preview was used to check the devt tools and the different screen sizes of each page
 
 
+##Bugs/Problems encountered
 
-Deployment
+* Mobile responsiveness had some issues, when viewing 'inspect' to see the different screen sizes
+    * The way I set the backgrounds of some sections caused them not to fill the entire screen on different devices, so I changed the codes
+* My mentor told me that my bootstrap codes were formated wrongly
+    * I repositioned the rows, columns and classes for the backgrounds of almost each section in the HTML codes
+
+
+##Deployment
 I pushed my Cloud9 workspace to my Github repository called Germany-Online-Guide through the command line. I did not use it so often at the beginning of my project
 however, later as I kept progressing through my project, I was told to use it after almost each change I make. So, I have done so, until I finished it. 
 My Github repository can be found <a href="https://github.com/Rian1010/Germany-Online-Guide">here</a>.
+###Steps on how to push it:
+1. git add .
+2. git commit -m "text input"
+3. git remote add origin
+4. git push -u origin master
+5. Insert Github username
+6. Insert Github password
+
+##Credits
+
+###Content
+
+* The information of the German language in index.html was obtained and rewritten from the information on <a href="https://www.britannica.com/topic/German-language">Britannica</a>
+* The rest of the information that is displayed in index.html partly comes from my own knowledge of Germany, and was partly obtained and rewritten from the information I found on Google searches and on <a href="https://www.livescience.com/44007-german-culture.html">Live Science</a>
+
+###Media
+
+####Front page
+* The photo of Frankfurt in the front page of the homepage was obtained from 
+
+####Image in the 'About Germany' Section
+* The phote of Germany with the colors of the German flag was obtained from <a href="https://en.wikipedia.org/wiki/File:Flag_map_of_Germany.svg">Wikipedia</a>
+
+####The food carousel
+* The photos in the food carousel were obtained from the following websites:
+    * <a href="https://de.wikipedia.org/wiki/Datei:Spargel-Suppe_(asparagus_soup).jpg">Wikipedia</a>
+    * <a href="https://de.wikipedia.org/wiki/Datei:K%C3%A4sesp%C3%A4tzle.jpg">Wikipedia</a>
+    * <a href="https://pixabay.com/de/photos/reibekuchen-kartoffelpuffer-468983/">Pixabay</a>
+    * <a href="https://als.wikipedia.org/wiki/Schupfnudeln">Wikipedia</a>
+    * <a href="https://pxhere.com/en/photo/771094">pxhere</a>
+
+####The culture carousel
+* The photos in the culture carousel were obtained from the following websites:
+    *  <a href="https://de.m.wikipedia.org/wiki/Datei:Goethe-Haus_in_Frankfurt_am_Main.jpg">Wikipedia</a>
+    *  <a href="https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart">Wikipedia</a>
+    *  <a href="https://de.wikipedia.org/wiki/Ludwig_van_Beethoven">Wikipedia</a>
+    *  <a href="https://en.wikipedia.org/wiki/File:RichardWagner.jpg">Wikipedia</a>
+    *  <a href="https://www.pexels.com/photo/architecture-church-culture-frankfurt-372316/">Pixabay</a>
+    *  <a href="https://commons.wikimedia.org/wiki/File:2013-05-24_09-01-36_Germany_Hamburg_Hamburg_Altstadt.JPG">Wikimedia</a>
+    *  <a href="https://pixabay.com/photos/dresden-germany-terrassenufer-2362953/">Pixabay</a>
+
+####Image in the 'Why Travel to Germany?' section
+* The image was obtained from a friend, who had this picture taken by his co-worker
+
+####Image above the 'Information' section
+* The photo was obtained from myself, as I have taken the picture myself
+
+####Gallery in media.html
+* The photos in the gallery were obtained from the following websites:
+    * <a href="https://commons.wikimedia.org/wiki/File:Reichstag_May_09.jpg">Wikimedia</a>
+    * <a href="https://de.wikipedia.org/wiki/Datei:Wasserspiele_Kassel-Wilhelmsh%C3%B6he_2011_von_oben-1.jpg">Wikipedia</a>
+    * <a href="https://www.maxpixel.net/Neuschwanstein-Castle-Germany-Bavaria-Famous-2243447">Max Pixel</a>
+    * <a href="https://www.maxpixel.net/Sky-Fulda-High-Hill-The-Milseburg-Mountain-Clouds-2789195">Max Pixel</a>
+    * <a href="https://www.flickr.com/photos/kplanz/6510651189">Flickr</a>
+    * <a href="https://commons.wikimedia.org/wiki/File:Hamburg_Rathaus.jpg">Wikimedia</a>
+    * <a href="https://pixabay.com/photos/frankfurt-am-main-germany-sunset-2263351/">Pixabay</a>
+    * The picture of Offenbach am Main was obtained from myself, as I have taken the picture
+    * <a href="https://pixabay.com/de/photos/m%C3%BCnchen-olympiastadion-olympiapark-2516492/">Pixabay</a>
+
+####Audio File in media.html
+* The audio file was obtained from <a href="https://archive.org/details/GermanNationalAnthemDasDeutschlandliedDEEN">Archive</a>
+
+####Videos in media.html
+* The videos that are shown in the gallery were obtained from the following YouTube channels: 
+    * <a href="https://www.youtube.com/watch?v=06YvNPAD2lg">Dr. Ludwig</a>
+    * <a href="https://www.youtube.com/watch?v=HXJtIBXE1vQ">Dominik Schleuter</a>
+    * <a href="https://www.youtube.com/watch?v=hI7Ay8iR2Q8">Linguamaria</a>
+
+####Images in the hotels.html
+* The image of the Steigenberger Frankfurter Hof was obtained from <a href="https://de.wikipedia.org/wiki/Datei:Frankfurt_Steigenberger_Frankfurter_Hof.20150405.jpg">Wikipedia</a>
+* The image of the Hotel Ambassador Hamburg-Hammerbrook was obtained from <a href="https://commons.wikimedia.org/wiki/File:Hotel_Ambassador_Hamburg-Hammerbrook_01.jpg">Wikimedia</a>
+* The image of the Hotel Hotel Alexander Plaze was obtained from <a href="https://commons.wikimedia.org/wiki/File:Hotel_Alexander_Plaza_-_Berlin.jpg">Wikimedia</a>
+* The image of the Goldener Karpfen * Romantik Hotel & Restaurant was obtained from <a href="https://commons.wikimedia.org/wiki/File:Fulda_-_Geb%C3%A4ude_Simpliziusbrunnen_1_-_Front.JPG">Wikimedia</a>
+
+####Images in the emergency-contacts.html
+* The image of the woman on the phone at the top of the page was obtained from <a href="https://pixabay.com/de/vectors/sekret%C3%A4rin-telefon-b%C3%BCro-silhouette-3396516/">Pixabay</a>
+* The image of the police car in the middle of the page was obtained from <a href="https://commons.wikimedia.org/wiki/File:Typical_German_police_car.jpg">Wikimedia</a>
+* The image of the fire service vehicle at the bottom of the page was obtained from <a href="https://commons.wikimedia.org/wiki/File:EMC112.jpg">Wikimedia</a>
 
 
-
-Credits
-
-Media  
-
-Front page
-- The photo of Frankfurt in the front page of the homepage was obtained from 
-
-Image in the 'About Germany' Section
-- The phote of Germany with the colors of the German flag was obtained from <a href="https://en.wikipedia.org/wiki/File:Flag_map_of_Germany.svg">Wikipedia</a>
-
-The food carousel
-- The photos in the food carousel were obtained from the following websites:
-    - <a href="https://de.wikipedia.org/wiki/Datei:Spargel-Suppe_(asparagus_soup).jpg">Wikipedia</a>
-    - <a href="https://de.wikipedia.org/wiki/Datei:K%C3%A4sesp%C3%A4tzle.jpg">Wikipedia</a>
-    - <a href="https://pixabay.com/de/photos/reibekuchen-kartoffelpuffer-468983/">Pixabay</a>
-    - <a href="https://als.wikipedia.org/wiki/Schupfnudeln">Wikipedia</a>
-    - <a href="https://pxhere.com/en/photo/771094">pxhere</a>
-
-The culture carousel
-- The photos in the culture carousel were obtained from the following websites:
-    -  <a href="https://de.m.wikipedia.org/wiki/Datei:Goethe-Haus_in_Frankfurt_am_Main.jpg">Wikipedia</a>
-    -  <a href="https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart">Wikipedia</a>
-    -  <a href="https://de.wikipedia.org/wiki/Ludwig_van_Beethoven">Wikipedia</a>
-    -  <a href="https://en.wikipedia.org/wiki/File:RichardWagner.jpg">Wikipedia</a>
-    -  <a href="https://www.pexels.com/photo/architecture-church-culture-frankfurt-372316/">Pixabay</a>
-    -  <a href="https://commons.wikimedia.org/wiki/File:2013-05-24_09-01-36_Germany_Hamburg_Hamburg_Altstadt.JPG">Wikipedia</a>
-    -  <a href="https://pixabay.com/photos/dresden-germany-terrassenufer-2362953/">Pixabay</a>
-
-Image in the 'Why Travel to Germany?' section
-- The image was obtained from a friend, who had this picture taken by his co-worker
-
-Image above the 'Information' section 
-- The photo was obtained from myself, as I have taken the picture myself
-
-Gallery in media.html
-- The photos in the gallery were obtained from the following websites:
-    - <a href="https://commons.wikimedia.org/wiki/File:Reichstag_May_09.jpg">Wikipedia</a>
-    - <a href="https://de.wikipedia.org/wiki/Datei:Wasserspiele_Kassel-Wilhelmsh%C3%B6he_2011_von_oben-1.jpg">Wikipedia</a>
-    - <a href="https://www.maxpixel.net/Neuschwanstein-Castle-Germany-Bavaria-Famous-2243447">Max Pixel</a>
-    - <a href="https://www.maxpixel.net/Sky-Fulda-High-Hill-The-Milseburg-Mountain-Clouds-2789195">Max Pixel</a>
-    - <a href="https://www.flickr.com/photos/kplanz/6510651189">Flickr</a>
-    - <a href="https://commons.wikimedia.org/wiki/File:Hamburg_Rathaus.jpg">Wikipedia</a>
-    - <a href="https://pixabay.com/photos/frankfurt-am-main-germany-sunset-2263351/">Pixabay</a>
-    - The picture of Offenbach am Main was obtained from myself, as I have taken the picture
-    - <a href="https://pixabay.com/de/photos/m%C3%BCnchen-olympiastadion-olympiapark-2516492/">Pixabay</a>
-
-Audio File in media.html
-- The audio file was obtained from <a href="https://archive.org/details/GermanNationalAnthemDasDeutschlandliedDEEN">Archive</a>
-
-Videos in media.html
-- The videos that are shown in the gallery were obtained from the following YouTube channels: 
-    - <a href="https://www.youtube.com/watch?v=06YvNPAD2lg">Dr. Ludwig</a>
-    - <a href="https://www.youtube.com/watch?v=HXJtIBXE1vQ">Dominik Schleuter</a>
-    - <a href="https://www.youtube.com/watch?v=hI7Ay8iR2Q8">Linguamaria</a>
-
-Images in the hotels.html
-- The image of the Steigenberger Frankfurter Hof was obtained from <a href="https://de.wikipedia.org/wiki/Datei:Frankfurt_Steigenberger_Frankfurter_Hof.20150405.jpg">Wikipedia</a>
-- The image of the Hotel Ambassador Hamburg-Hammerbrook was obtained from <a href="https://commons.wikimedia.org/wiki/File:Hotel_Ambassador_Hamburg-Hammerbrook_01.jpg">Wikipedia</a>
-- The image of the Hotel Hotel Alexander Plaze was obtained from <a href="https://commons.wikimedia.org/wiki/File:Hotel_Alexander_Plaza_-_Berlin.jpg">Wikipedia</a>
-- The image of the Goldener Karpfen - Romantik Hotel & Restaurant was obtained from <a href="https://commons.wikimedia.org/wiki/File:Fulda_-_Geb%C3%A4ude_Simpliziusbrunnen_1_-_Front.JPG">Wikipedia</a>
-
-Images in the emergency-contacts.html
-- The image of the woman on the phone at the top of the page was obtained from <a href="https://pixabay.com/de/vectors/sekret%C3%A4rin-telefon-b%C3%BCro-silhouette-3396516/">Pixabay</a>
-- The image of the police car in the middle of the page was obtained from <a href="https://commons.wikimedia.org/wiki/File:Typical_German_police_car.jpg">Wikipedia</a>
-- 
+##Acknowledgements
+* Thank you to my mentor, Antonija Simic, gave me examples of how modern landing pages look like and helped and inspired me to design of the webpage
+* Thank you to the tutors, Nakita and Niel for assisting me with problems I had

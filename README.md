@@ -1,4 +1,4 @@
-#README.md
+# README.md
 
 ## Germany Online Guide
  
@@ -253,7 +253,7 @@ My Github repository can be found [here](https://github.com/Rian1010/Germany-Onl
 #### Images in the emergency-contacts.html
 * The image of the woman on the phone at the top of the page was obtained from [https://pixabay.com/de/vectors/sekret%C3%A4rin-telefon-b%C3%BCro-silhouette-3396516/](Pixabay]
 * The image of the police car in the middle of the page was obtained from [https://commons.wikimedia.org/wiki/File:Typical_German_police_car.jpg](Wikimedia)
-* The image of the fire service vehicle at the bottom of the page was obtained from [https://commons.wikimedia.org/wiki/File:EMC112.jpg](Wikimedia)
+* The image of the fire service vehicle at the bottom of the page was obtained from [https://commons.wikimedia.org/wiki/File:EMC112.jpg] (Wikimedia)
 
 
 ## Acknowledgements

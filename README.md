@@ -89,21 +89,21 @@ To conclude, this website is an online guide to Germany, which gives a user, who
     * This was used in order to style the HTML elements of the webpage
     
 * Bootstrap
-    * [https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css](BootstrapCDN Link)
+    * [BootstrapCDN Link](https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css)
         * This was used for the styling of the webpage, using mostly its grid system, navigation bar codes and carousel codes
     * https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css
         * This was used to make a gallery on the 'Media' page
     
 * Hover 
-    * [https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css](Hover CDNJS)
+    * [Hover CDNJS](https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css)
         * This was used for the hover effects in the navigation bars 
 
 * Font Awesome
-    * [https://use.fontawesome.com/releases/v5.7.2/css/all.css](Font Awesome Link)
+    * [Font Awesome Link](https://use.fontawesome.com/releases/v5.7.2/css/all.css)
         * This was used for the universal fonts, which I used as icons on the website
         
 * HTML Validator
-    * [https://validator.w3.org/nu/?doc=https%3A%2F%2Fgermany-rian1010.c9users.io%2Femergency-contacts.html](HTML Validator Link)
+    * [HTML Validator Link](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgermany-rian1010.c9users.io%2Femergency-contacts.html)
         * This was used to check mistakes I made in my HTML codes
 
 
@@ -188,7 +188,7 @@ My Github repository can be found [here](https://github.com/Rian1010/Germany-Onl
 
 ### Content
 
-* The information of the German language in index.html was obtained and rewritten from the information on [https://www.britannica.com/topic/German-language](Britannica)
+* The information of the German language in index.html was obtained and rewritten from the information on [Britannica](https://www.britannica.com/topic/German-language)
 * The rest of the information that is displayed in index.html partly comes from my own knowledge of Germany, and was partly obtained and rewritten from the information I found on Google searches and on [https://www.livescience.com/44007-german-culture.html](Live Science)
 
 ### Media
@@ -197,25 +197,25 @@ My Github repository can be found [here](https://github.com/Rian1010/Germany-Onl
 * The photo of Frankfurt in the front page of the homepage was obtained from 
 
 #### Image in the 'About Germany' Section
-* The phote of Germany with the colors of the German flag was obtained from [https://en.wikipedia.org/wiki/File:Flag_map_of_Germany.svg](Wikipedia)
+* The phote of Germany with the colors of the German flag was obtained from [Wikipedia](https://en.wikipedia.org/wiki/File:Flag_map_of_Germany.svg)
 
 #### The food carousel
 * The photos in the food carousel were obtained from the following websites:
-    * [https://de.wikipedia.org/wiki/Datei:Spargel-Suppe_(asparagus_soup).jpg](Wikipedia)
-    * [https://de.wikipedia.org/wiki/Datei:K%C3%A4sesp%C3%A4tzle.jpg](Wikipedia)
-    * [https://pixabay.com/de/photos/reibekuchen-kartoffelpuffer-468983/](Pixabay)
-    * [https://als.wikipedia.org/wiki/Schupfnudeln](Wikipedia)
-    * [https://pxhere.com/en/photo/771094](pxhere)
+    * [Wikipedia](https://de.wikipedia.org/wiki/Datei:Spargel-Suppe_(asparagus_soup).jpg)
+    * [Wikipedia](https://de.wikipedia.org/wiki/Datei:K%C3%A4sesp%C3%A4tzle.jpg)
+    * [Pixabay](https://pixabay.com/de/photos/reibekuchen-kartoffelpuffer-468983/)
+    * [Wikipedia](https://als.wikipedia.org/wiki/Schupfnudel)
+    * [pxhere](https://pxhere.com/en/photo/771094)
 
 #### The culture carousel
 * The photos in the culture carousel were obtained from the following websites:
-    * [https://de.m.wikipedia.org/wiki/Datei:Goethe-Haus_in_Frankfurt_am_Main.jpg](Wikipedia)
-    * [https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart](Wikipedia)
-    * [https://de.wikipedia.org/wiki/Ludwig_van_Beethoven](Wikipedia)
-    * [https://en.wikipedia.org/wiki/File:RichardWagner.jpg](Wikipedia)
-    * [https://www.pexels.com/photo/architecture-church-culture-frankfurt-372316/](Pixabay)
-    * [https://commons.wikimedia.org/wiki/File:2013-05-24_09-01-36_Germany_Hamburg_Hamburg_Altstadt.JPG](Wikimedia)
-    * [https://pixabay.com/photos/dresden-germany-terrassenufer-2362953/](Pixabay)
+    * [Wikipedia](https://de.m.wikipedia.org/wiki/Datei:Goethe-Haus_in_Frankfurt_am_Main.jpg)
+    * [Wikipedia](https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart)
+    * [Wikipedia](https://de.wikipedia.org/wiki/Ludwig_van_Beethoven)
+    * [Wikipedia](https://en.wikipedia.org/wiki/File:RichardWagner.jpg)
+    * [Pixabay](https://www.pexels.com/photo/architecture-church-culture-frankfurt-372316/)
+    * [Wikimedia](https://commons.wikimedia.org/wiki/File:2013-05-24_09-01-36_Germany_Hamburg_Hamburg_Altstadt.JPG)
+    * [Pixabay](https://pixabay.com/photos/dresden-germany-terrassenufer-2362953/)
 
 #### Image in the 'Why Travel to Germany?' section
 * The image was obtained from a friend, who had this picture taken by his co-worker
@@ -225,35 +225,35 @@ My Github repository can be found [here](https://github.com/Rian1010/Germany-Onl
 
 #### Gallery in media.html
 * The photos in the gallery were obtained from the following websites:
-    * [https://commons.wikimedia.org/wiki/File:Reichstag_May_09.jpg](Wikimedia)
-    * [https://de.wikipedia.org/wiki/Datei:Wasserspiele_Kassel-Wilhelmsh%C3%B6he_2011_von_oben-1.jpg](Wikipedia)
-    * [https://www.maxpixel.net/Neuschwanstein-Castle-Germany-Bavaria-Famous-2243447](Max Pixel)
-    * [https://www.maxpixel.net/Sky-Fulda-High-Hill-The-Milseburg-Mountain-Clouds-2789195](Max Pixel)
-    * [https://www.flickr.com/photos/kplanz/6510651189](Flickr)
-    * [https://commons.wikimedia.org/wiki/File:Hamburg_Rathaus.jpg](Wikimedia)
-    * [https://pixabay.com/photos/frankfurt-am-main-germany-sunset-2263351/](Pixabay)
+    * [Wikimedia](https://commons.wikimedia.org/wiki/File:Reichstag_May_09.jpg)
+    * [Wikipedia](https://de.wikipedia.org/wiki/Datei:Wasserspiele_Kassel-Wilhelmsh%C3%B6he_2011_von_oben-1.jpg)
+    * [Max Pixel](https://www.maxpixel.net/Neuschwanstein-Castle-Germany-Bavaria-Famous-2243447)
+    * [Max Pixel](https://www.maxpixel.net/Sky-Fulda-High-Hill-The-Milseburg-Mountain-Clouds-2789195)
+    * [Flickr](https://www.flickr.com/photos/kplanz/6510651189)
+    * [Wikimedia](https://commons.wikimedia.org/wiki/File:Hamburg_Rathaus.jpg)
+    * [Pixabay](https://pixabay.com/photos/frankfurt-am-main-germany-sunset-2263351/)
     * The picture of Offenbach am Main was obtained from myself, as I have taken the picture
-    * [https://pixabay.com/de/photos/m%C3%BCnchen-olympiastadion-olympiapark-2516492/](Pixabay)
+    * [Pixabay](https://pixabay.com/de/photos/m%C3%BCnchen-olympiastadion-olympiapark-2516492/)
 
 #### Audio File in media.html
-* The audio file was obtained from [https://archive.org/details/GermanNationalAnthemDasDeutschlandliedDEEN](Archive)
+* The audio file was obtained from [Archive](https://archive.org/details/GermanNationalAnthemDasDeutschlandliedDEEN9)
 
 #### Videos in media.html
 * The videos that are shown in the gallery were obtained from the following YouTube channels: 
-    * [https://www.youtube.com/watch?v=06YvNPAD2lg](Dr. Ludwig)
-    * [https://www.youtube.com/watch?v=HXJtIBXE1vQ](Dominik Schleuter)
-    * [https://www.youtube.com/watch?v=hI7Ay8iR2Q8](Linguamaria)
+    * [Dr. Ludwig](https://www.youtube.com/watch?v=06YvNPAD2lg)
+    * [Dominik Schleuter](https://www.youtube.com/watch?v=HXJtIBXE1vQ)
+    * [Linguamaria](https://www.youtube.com/watch?v=hI7Ay8iR2Q8)
 
 #### Images in the hotels.html
-* The image of the Steigenberger Frankfurter Hof was obtained from [https://de.wikipedia.org/wiki/Datei:Frankfurt_Steigenberger_Frankfurter_Hof.20150405.jpg](Wikipedia)
-* The image of the Hotel Ambassador Hamburg-Hammerbrook was obtained from [https://commons.wikimedia.org/wiki/File:Hotel_Ambassador_Hamburg-Hammerbrook_01.jpg](Wikimedia)
-* The image of the Hotel Hotel Alexander Plaze was obtained from [https://commons.wikimedia.org/wiki/File:Hotel_Alexander_Plaza_-_Berlin.jpg](Wikimedia)
-* The image of the Goldener Karpfen * Romantik Hotel & Restaurant was obtained from [https://commons.wikimedia.org/wiki/File:Fulda_-_Geb%C3%A4ude_Simpliziusbrunnen_1_-_Front.JPG](Wikimedia)
+* The image of the Steigenberger Frankfurter Hof was obtained from [Wikipedia](https://de.wikipedia.org/wiki/Datei:Frankfurt_Steigenberger_Frankfurter_Hof.20150405.jpg)
+* The image of the Hotel Ambassador Hamburg-Hammerbrook was obtained from [Wikimedia](https://commons.wikimedia.org/wiki/File:Hotel_Ambassador_Hamburg-Hammerbrook_01.jpg)
+* The image of the Hotel Hotel Alexander Plaze was obtained from [Wikimedia](https://commons.wikimedia.org/wiki/File:Hotel_Alexander_Plaza_-_Berlin.jpg)
+* The image of the Goldener Karpfen * Romantik Hotel & Restaurant was obtained from [Wikimedia](https://commons.wikimedia.org/wiki/File:Fulda_-_Geb%C3%A4ude_Simpliziusbrunnen_1_-_Front.JPG)
 
 #### Images in the emergency-contacts.html
-* The image of the woman on the phone at the top of the page was obtained from [https://pixabay.com/de/vectors/sekret%C3%A4rin-telefon-b%C3%BCro-silhouette-3396516/](Pixabay]
-* The image of the police car in the middle of the page was obtained from [https://commons.wikimedia.org/wiki/File:Typical_German_police_car.jpg](Wikimedia)
-* The image of the fire service vehicle at the bottom of the page was obtained from [https://commons.wikimedia.org/wiki/File:EMC112.jpg] (Wikimedia)
+* The image of the woman on the phone at the top of the page was obtained from [Pixabay](https://pixabay.com/de/vectors/sekret%C3%A4rin-telefon-b%C3%BCro-silhouette-3396516/)
+* The image of the police car in the middle of the page was obtained from [Wikimedia](https://commons.wikimedia.org/wiki/File:Typical_German_police_car.jpg)
+* The image of the fire service vehicle at the bottom of the page was obtained from [Wikimedia](https://commons.wikimedia.org/wiki/File:EMC112.jpg)
 
 
 ## Acknowledgements

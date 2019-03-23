@@ -33,6 +33,9 @@ To conclude, this website is an online guide to Germany, which gives a user, who
 7. As a traveller, I would like to know emergency numbers, which I could use in emergency situations
 8. As a traveller, I would like to learn important words in the country's national language that I could use to communicate in emergency situations
 
+### Mockups
+
+* Please find my paper and pen mockups for the first desgin of my website [here]()
 
 ## Features
 
@@ -178,7 +181,7 @@ My Github repository can be found [here](https://github.com/Rian1010/Germany-Onl
 
 ### Steps on how to push it:
 1. git add .
-2. git status (to check, if the write thing/s have been added or not)
+2. git status (to check, if the right file/s have been added or not)
 3. git commit -m "text input"
 4. git remote add origin
 5. git push -u origin master

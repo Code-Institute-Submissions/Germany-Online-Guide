@@ -91,7 +91,7 @@ To conclude, this website is an online guide to Germany, which gives a user, who
 * Bootstrap
     * [BootstrapCDN Link](https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css)
         * This was used for the styling of the webpage, using mostly its grid system, navigation bar codes and carousel codes
-    * https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css
+    * [BaguetteBox.js]( https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css)
         * This was used to make a gallery on the 'Media' page
     
 * Hover 
@@ -178,18 +178,19 @@ My Github repository can be found [here](https://github.com/Rian1010/Germany-Onl
 
 ### Steps on how to push it:
 1. git add .
-2. git commit -m "text input"
-3. git remote add origin
-4. git push -u origin master
-5. Insert Github username
-6. Insert Github password
+2. git status (to check, if the write thing/s have been added or not)
+3. git commit -m "text input"
+4. git remote add origin
+5. git push -u origin master
+6. Insert Github username
+7. Insert Github password
 
 ## Credits
 
 ### Content
 
 * The information of the German language in index.html was obtained and rewritten from the information on [Britannica](https://www.britannica.com/topic/German-language)
-* The rest of the information that is displayed in index.html partly comes from my own knowledge of Germany, and was partly obtained and rewritten from the information I found on Google searches and on [https://www.livescience.com/44007-german-culture.html](Live Science)
+* The rest of the information that is displayed in index.html partly comes from my own knowledge of Germany, and was partly obtained and rewritten from the information I found on Google searches and on [Live Science](https://www.livescience.com/44007-german-culture.html)
 
 ### Media
 

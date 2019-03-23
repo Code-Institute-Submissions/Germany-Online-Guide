@@ -35,7 +35,8 @@ To conclude, this website is an online guide to Germany, which gives a user, who
 
 ### Mockups
 
-* Please find my paper and pen mockups for the first desgin of my website [here]()
+* Please find my first paper and pen mockups for the first desgin of my website [here](https://github.com/Rian1010/Germany-Online-Guide/tree/master/Mockups/first-design)
+* Please find my final paper and pen mockups for the first desgin of my website [here](https://github.com/Rian1010/Germany-Online-Guide/tree/master/Mockups/final-design)
 
 ## Features
 

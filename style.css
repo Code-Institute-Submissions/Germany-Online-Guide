@@ -965,7 +965,6 @@ h3 {
 .fa-twitter:hover {
     color: #5EB9FE;
     background-color: white;
-    text-decoration: none;
     transition: 0.2s ease-in-out;
 }
 
@@ -982,7 +981,6 @@ h3 {
 .fa-instagram:hover {
     color: #5EB9FE;
     background-color: white;
-    text-decoration: none;
     transition: 0.2s ease-in-out;
 }
 
@@ -999,7 +997,6 @@ h3 {
 .fa-facebook:hover {
     color: #5EB9FE;
     background-color: white;
-    text-decoration: none;
     transition: 0.2s ease-in-out;
 }
 
@@ -1016,7 +1013,6 @@ h3 {
 .fa-youtube:hover {
     color: #5EB9FE;
     background-color: white;
-    text-decoration: none;
     transition: 0.2s ease-in-out;
 }
 
@@ -1025,12 +1021,10 @@ h3 {
     display: flex;
     justify-content: flex-start;
     color: AliceBlue;
-    text-decoration: none;
 }
 
 .footer-contacts:hover {
     color: #5EB9FE;
-    text-decoration: none;
     transition: 0.2s ease-in-out;
 }
 

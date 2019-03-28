@@ -199,7 +199,7 @@ My Github repository can be found [here](https://github.com/Rian1010/Germany-Onl
 ### Media
 
 #### Front page
-* The photo of Frankfurt in the front page of the homepage was obtained from 
+* The photo of Frankfurt in the front page of the homepage was obtained from [Pixabay](https://pixabay.com/pl/photos/frankfurt-nad-menem-niemcy-2263351/)
 
 #### Image in the 'About Germany' Section
 * The phote of Germany with the colors of the German flag was obtained from [Wikipedia](https://en.wikipedia.org/wiki/File:Flag_map_of_Germany.svg)

@@ -142,24 +142,13 @@ h3 {
     width: 100%;
     height: 700px;
     background-position: center;
-    background-repeat: none;
     background-size: cover;
     position: fixed;
     z-index: -99;
-}
-
-.bannerPic:before {
-    animation: animate-banner 10s .5s cubic-bezier(0, .5, 0, 1) forwards;
-    -moz-animation: animate-banner 10s .5s cubic-bezier(0, .5, 0, 1) forwards;
-    -webkit-animation: animate-banner 10s .5s cubic-bezier(0, .5, 0, 1) forwards;
-    -o-animation: animate-banner 10s .5s cubic-bezier(0, .5, 0, 1) forwards;
-    opacity: 0;
-    content: "";
-    position: absolute;
-    background-image: url('../assets/images/frankf.jpg');
-    margin-top: 66px;
-    max-width: 100%;
-    height: auto;
+    
+    /*For Safari*/
+    top: 0;
+    left: 0;
 }
 
 @keyframes animate-galleryBG {
@@ -580,7 +569,7 @@ h3 {
     white-space: pre-line;
     color: black;
     font-family: 'Merriweather', serif;
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 300;
 }
 
@@ -669,13 +658,6 @@ h3 {
     position: relative;
     width: 100%;
     height: 70px;
-}
-
-.audio-text {
-    font-family: 'Merriweather', serif;
-    text-align: center;
-    font-size: 28px;
-    font-weight: 300;
 }
 
 /*-------------------------------------------------Videos-------------------------------------------------*/
@@ -1094,7 +1076,7 @@ h3 {
 }
 
 .hotelsMainHeading {
-    margin-top: 100px;
+    margin-top: 110px;
     margin-bottom: 30px;
     font-size: 40px;
     text-align: center;
@@ -1124,12 +1106,7 @@ h3 {
 }
 
 .hotels-p {
-    font-family: 'Merriweather', serif;
-    text-align: center;
-    color: black;
-    font-size: 28px;
     padding: 0px 15px;
-    font-weight: 300;
 }
 
 .steinberger-list-heading1 {
@@ -1234,11 +1211,9 @@ h3 {
 }
 
 .national-emergency-numbers-text {
-    font-family: 'Merriweather', serif;
     display: inline-block;
     margin-left: 20px;
-    font-weight: 300;
-    font-size: 28px;
+
 }
 
 .vehicle-image-container {

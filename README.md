@@ -226,7 +226,7 @@ My Github repository can be found [here](https://github.com/Rian1010/Germany-Onl
 * The image was obtained from a friend, who had this picture taken by his co-worker
 
 #### Image above the 'Information' section
-* The photo was obtained from myself, as I have taken the picture myself
+* The photo was taken by picture me
 
 #### Gallery in media.html
 * The photos in the gallery were obtained from the following websites:
@@ -237,7 +237,7 @@ My Github repository can be found [here](https://github.com/Rian1010/Germany-Onl
     * [Flickr](https://www.flickr.com/photos/kplanz/6510651189)
     * [Wikimedia](https://commons.wikimedia.org/wiki/File:Hamburg_Rathaus.jpg)
     * [Pixabay](https://pixabay.com/photos/frankfurt-am-main-germany-sunset-2263351/)
-    * The picture of Offenbach am Main was obtained from myself, as I have taken the picture
+    * The picture of Offenbach am Main was taken by me
     * [Pixabay](https://pixabay.com/de/photos/m%C3%BCnchen-olympiastadion-olympiapark-2516492/)
 
 #### Audio File in media.html

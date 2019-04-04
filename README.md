@@ -249,7 +249,7 @@ My Github repository can be found [here](https://github.com/Rian1010/Germany-Onl
     * [Wikipedia](https://de.wikipedia.org/wiki/Datei:Wasserspiele_Kassel-Wilhelmsh%C3%B6he_2011_von_oben-1.jpg)
     * [Max Pixel](https://www.maxpixel.net/Neuschwanstein-Castle-Germany-Bavaria-Famous-2243447)
     * [Max Pixel](https://www.maxpixel.net/Sky-Fulda-High-Hill-The-Milseburg-Mountain-Clouds-2789195)
-    * [Flickr](https://www.flickr.com/photos/kplanz/6510651189)
+    * [GCR Group](http://gcrgroup.es/en/gcr/blog/Five-reasons-visit-K2016)
     * [Wikimedia](https://commons.wikimedia.org/wiki/File:Hamburg_Rathaus.jpg)
     * [Pixabay](https://pixabay.com/photos/frankfurt-am-main-germany-sunset-2263351/)
     * The picture of Offenbach am Main was taken by me

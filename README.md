@@ -1,6 +1,8 @@
 # README.md
 
 ## Germany Online Guide
+
+The link, at which my website is published is [here](https://rian1010.github.io/Germany-Online-Guide/.).
  
 My project focuses on Germany and its beautiful places, attractions, culture and its delicious food. 
 It is a website that is aimed towards travellers, who are looking for interesting places to visit, are ready to get inspired by a new culture, 
@@ -182,7 +184,7 @@ I tested some design for the website, throughout the procedure of my project and
 ## Deployment
 I pushed my Cloud9 workspace to my Github repository called Germany-Online-Guide, through the command line. I did not use it so often, at the beginning of my project
 however, later as I kept progressing through the project, I was told to use it, after almost each change I make. Therefore, I have done so, until I finished the project. 
-My Github repository can be found [here](https://github.com/Rian1010/Germany-Online-Guide).
+My Github repository can be found [here](https://github.com/Rian1010/Germany-Online-Guide) and the link, at which my website is published is [here](https://rian1010.github.io/Germany-Online-Guide/.).
 
 ### Steps on how to push it:
 1. git add .
@@ -192,6 +194,15 @@ My Github repository can be found [here](https://github.com/Rian1010/Germany-Onl
 5. git push -u origin master
 6. Insert Github username
 7. Insert Github password
+
+### Steps on the final deployment:
+1. Go to the github repository
+2. Click on 'Settings'
+3. Scroll down to the 'Github Pages' section
+4. Set the source to master branch
+5. The link, at which the site is published should appear
+6. Click save
+
 
 ## Credits
 

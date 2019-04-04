@@ -134,7 +134,7 @@ h3 {
 }
 
 .bannerPic {
-    background-image: linear-gradient(rgba(1, 1, 1, .2), rgba(1, 1, 1, 0), rgba(1, 1, 1, .2)), url('../assets/images/banner/frankf.jpg');
+    background-image: linear-gradient(rgba(1, 1, 1, .2), rgba(1, 1, 1, 0), rgba(1, 1, 1, .2)), url('assets/images/banner/frankf.jpg');
     width: 100%;
     height: 700px;
     background-position: center;
@@ -275,7 +275,7 @@ h3 {
 
 .foodCarsousel-img1 {
     height: 100%;
-    background-image: url('../assets/images/Food/asparagus-soup.jpeg');
+    background-image: url('assets/images/Food/asparagus-soup.jpeg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -283,7 +283,7 @@ h3 {
 
 .foodCarsousel-img2 {
     height: 100%;
-    background-image: url('../assets/images/Food/kaesespaetzle.jpg');
+    background-image: url('assets/images/Food/kaesespaetzle.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -291,7 +291,7 @@ h3 {
 
 .foodCarsousel-img3 {
     height: 100%;
-    background-image: url('../assets/images/Food/kartoffelpuffer.jpeg');
+    background-image: url('assets/images/Food/kartoffelpuffer.jpeg');
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -299,7 +299,7 @@ h3 {
 
 .foodCarsousel-img4 {
     height: 100%;
-    background-image: url('../assets/images/Food/frankfurter-gruene-sosse.jpeg');
+    background-image: url('assets/images/Food/frankfurter-gruene-sosse.jpeg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -307,7 +307,7 @@ h3 {
 
 .foodCarsousel-img5 {
     height: 100%;
-    background-image: url('../assets/images/Food/Schupfnudel.jpg');
+    background-image: url('assets/images/Food/Schupfnudel.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -315,7 +315,7 @@ h3 {
 
 .foodCarsousel-img6 {
     height: 100%;
-    background-image: url('../assets/images/Food/obatzter.jpeg');
+    background-image: url('assets/images/Food/obatzter.jpeg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -323,7 +323,7 @@ h3 {
 
 .cultureCarsousel-img1 {
     height: 100%;
-    background-image: url('../assets/images/culture/goethe-house.jpg');
+    background-image: url('assets/images/culture/goethe-house.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -331,7 +331,7 @@ h3 {
 
 .cultureCarsousel-img2 {
     height: 100%;
-    background-image: url('../assets/images/culture/Mozart.jpg');
+    background-image: url('assets/images/culture/Mozart.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -339,7 +339,7 @@ h3 {
 
 .cultureCarsousel-img3 {
     height: 100%;
-    background-image: url('../assets/images/culture/Beethoven.jpeg');
+    background-image: url('assets/images/culture/Beethoven.jpeg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -347,7 +347,7 @@ h3 {
 
 .cultureCarsousel-img4 {
     height: 100%;
-    background-image: url('../assets/images/culture/Richard.jpg');
+    background-image: url('assets/images/culture/Richard.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -355,7 +355,7 @@ h3 {
 
 .cultureCarsousel-img5 {
     height: 100%;
-    background-image: url('../assets/images/culture/frankfurt-architecture.jpeg');
+    background-image: url('assets/images/culture/frankfurt-architecture.jpeg');
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -363,7 +363,7 @@ h3 {
 
 .cultureCarsousel-img6 {
     height: 100%;
-    background-image: url('../assets/images/culture/hamburg-altstadt.JPG');
+    background-image: url('assets/images/culture/hamburg-altstadt.JPG');
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -371,7 +371,7 @@ h3 {
 
 .cultureCarsousel-img7 {
     height: 100%;
-    background-image: url('../assets/images/culture/terrassenufer-dresden.jpg');
+    background-image: url('assets/images/culture/terrassenufer-dresden.jpg');
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -547,7 +547,7 @@ h3 {
 .text-img1 {
     width: 100%;
     height: 597px;
-    background-image: url('../assets/images/germany-map-flag.png');
+    background-image: url('assets/images/germany-map-flag.png');
     background-size: 100% 100%;
     background-position: center;
 }
@@ -555,7 +555,7 @@ h3 {
 .text-img2 {
     width: 100%;
     height: 700px;
-    background-image: url('../assets/images/places/img1.jpeg');
+    background-image: url('assets/images/places/img1.jpeg');
     background-size: cover;
     background-position: center;
 }
@@ -592,7 +592,7 @@ h3 {
     height: 775px;
     background-repeat-x: no-repeat;
     background-position: center;
-    background-image: linear-gradient(rgba(1, 1, 1, .1), rgba(1, 1, 1, 0), rgba(1, 1, 1, .1)), url(../assets/images/places/img2.jpeg);
+    background-image: linear-gradient(rgba(1, 1, 1, .1), rgba(1, 1, 1, 0), rgba(1, 1, 1, .1)), url(assets/images/places/img2.jpeg);
 }
 
 .landscape-pic-container {
@@ -921,7 +921,7 @@ h3 {
 
 .hotel-steinberger-img1 {
     height: 100%;
-    background-image: url('../assets/images/hotels/Steinberger-Frankfurt-Hotel.jpg');
+    background-image: url('assets/images/hotels/Steinberger-Frankfurt-Hotel.jpg');
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -929,7 +929,7 @@ h3 {
 
 .hotel-img2 {
     height: 100%;
-    background-image: url('../assets/images/hotels/Hotel-Ambassador.jpg');
+    background-image: url('assets/images/hotels/Hotel-Ambassador.jpg');
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -937,7 +937,7 @@ h3 {
 
 .hotel-img3 {
     height: 100%;
-    background-image: url('../assets/images/hotels/Hotel_Alexander_Plaza_-_Berlin.jpg');
+    background-image: url('assets/images/hotels/Hotel_Alexander_Plaza_-_Berlin.jpg');
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -945,7 +945,7 @@ h3 {
 
 .hotel-img4 {
     height: 100%;
-    background-image: url('../assets/images/hotels/Fulda-Hotel.JPG');
+    background-image: url('assets/images/hotels/Fulda-Hotel.JPG');
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -953,7 +953,7 @@ h3 {
 
 .hotel-img5 {
     height: 100%;
-    background-image: url('../assets/images/hotels/Best_Western_Plus_Hotel_Kassel_City1.jpg');
+    background-image: url('assets/images/hotels/Best_Western_Plus_Hotel_Kassel_City1.jpg');
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1040,7 +1040,7 @@ h3 {
 
 .office-phone-image {
     height: 100%;
-    background-image: linear-gradient(rgba(1, 1, 1, .2), rgba(1, 1, 1, 0), rgba(1, 1, 1, .2)), url('../assets/images/banner/office-phone.svg');
+    background-image: linear-gradient(rgba(1, 1, 1, .2), rgba(1, 1, 1, 0), rgba(1, 1, 1, .2)), url('assets/images/banner/office-phone.svg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -1113,7 +1113,7 @@ h3 {
 
 .vehicle-phone-image {
     height: 100%;
-    background-image: linear-gradient(rgba(1, 1, 1, .2), rgba(1, 1, 1, 0), rgba(1, 1, 1, .2)), url('../assets/images/banner/german_police_car.jpg');
+    background-image: linear-gradient(rgba(1, 1, 1, .2), rgba(1, 1, 1, 0), rgba(1, 1, 1, .2)), url('assets/images/banner/german_police_car.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -1132,7 +1132,7 @@ h3 {
 
 .notfall-phone-image {
     height: 100%;
-    background-image: linear-gradient(rgba(1, 1, 1, .2), rgba(1, 1, 1, 0), rgba(1, 1, 1, .2)), url('../assets/images/banner/Feuerwehr.jpg');
+    background-image: linear-gradient(rgba(1, 1, 1, .2), rgba(1, 1, 1, 0), rgba(1, 1, 1, .2)), url('assets/images/banner/Feuerwehr.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;

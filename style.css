@@ -481,6 +481,12 @@ h3 {
     height: 350px;
 }
 
+@media (min-width: 1200px) {
+    .foodCarouselSize {
+        height: 500px;
+    }
+}
+
 .food-carousel-BGbox {
     width: 100%;
     height: auto;
@@ -499,6 +505,12 @@ h3 {
 .cultureCarouselSize {
     width: 100%;
     height: 350px;
+}
+
+@media (min-width: 1200px) {
+    .cultureCarouselSize {
+    height: 500px;
+}
 }
 
 .culture-image-sizes {

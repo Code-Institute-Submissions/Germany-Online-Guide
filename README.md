@@ -38,6 +38,7 @@ To conclude, this website is an online guide to Germany, which gives a user, who
 
 * Please find my first paper and pen mockups for the first desgin of my website [here](https://github.com/Rian1010/Germany-Online-Guide/tree/master/Mockups/first-design)
 * Please find my final paper and pen mockups for the first desgin of my website [here](https://github.com/Rian1010/Germany-Online-Guide/tree/master/Mockups/final-design)
+* One more section with information about another hotel was added in hotels.html, than planned in the paper and pen mockup for this page, in order to have more content on it
 
 ## Features
 
@@ -267,8 +268,9 @@ My Github repository can be found [here](https://github.com/Rian1010/Germany-Onl
 #### Images in the hotels.html
 * The image of the Steigenberger Frankfurter Hof was obtained from [Wikipedia](https://de.wikipedia.org/wiki/Datei:Frankfurt_Steigenberger_Frankfurter_Hof.20150405.jpg)
 * The image of the Hotel Ambassador Hamburg-Hammerbrook was obtained from [Wikimedia](https://commons.wikimedia.org/wiki/File:Hotel_Ambassador_Hamburg-Hammerbrook_01.jpg)
-* The image of the Hotel Hotel Alexander Plaza was obtained from [Wikimedia](https://commons.wikimedia.org/wiki/File:Hotel_Alexander_Plaza_-_Berlin.jpg)
+* The image of the Hotel Alexander Plaza was obtained from [Wikimedia](https://commons.wikimedia.org/wiki/File:Hotel_Alexander_Plaza_-_Berlin.jpg)
 * The image of the Goldener Karpfen * Romantik Hotel & Restaurant was obtained from [Wikimedia](https://commons.wikimedia.org/wiki/File:Fulda_-_Geb%C3%A4ude_Simpliziusbrunnen_1_-_Front.JPG)
+* The image of Hotel Nikko Düsseldorf was obtained from [Wikipedia](https://de.wikipedia.org/wiki/Datei:Japan_Center_Duesseldorf_081.JPG)
 
 #### Images in the emergency-contacts.html
 * The image of the person on the phone, at the top of the page was obtained from [Pixabay](https://pixabay.com/de/vectors/sekret%C3%A4rin-telefon-b%C3%BCro-silhouette-3396516/)

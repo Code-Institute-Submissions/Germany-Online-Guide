@@ -6,7 +6,7 @@ The link, at which my website is published is [here](https://rian1010.github.io/
  
 My project focuses on Germany and its beautiful places, attractions, culture and its delicious food. 
 It is a website that is aimed towards travellers, who are looking for interesting places to visit, are ready to get inspired by a new culture, 
-want to find comfortable hotels in Germany and who want to have German emergency informations for safety. 
+want to find comfortable hotels in Germany and who want to have German emergency information for safety. 
 
 ## UX
 
@@ -16,20 +16,20 @@ language. As, one scrolls down to see more sections of the homepage, one can gat
 that many tourists like to visit. As a result, the homepage is the most important part of the website because it gives users broad ideas of what one could find in Germany, 
 and of how wide of a variety of attractions, cultural knowledge, places and traditional meals there are to discover. 
 
-Afterwards, the user is lead to the media page by clicking on a text on the homepage, in which I linked it, or one could simply click on 'Media' in the menu bar. 
+Afterwards, the user is lead to the media page by clicking on a text on the homepage, in which I linked it, or on 'Media' in the menu bar. 
 On there, one can find a gallery of beautiful land- and cityscapes in Germany, listen to an audio of the German national anthem and watch videos to see beautiful parts of 
 famous German places and learn 40 important German words that one could use in Germany. This page gives a user a broader idea of how beautiful germany is, and helps one to 
 get by in the country, as a tourist. Furthermore, one who is then interested to visit Germany, has the option to click on the 'Hotels' section in the menu bar to find examples of luxurious hotels
 and if they press on 'Emergency Contacts', in the footer or in the dropdown of the button called 'Contacts' in the menu bar, a user can find important German emergency numbers
 and German emergency words, which one could use in emergency situation in Germany. 
 
-To conclude, this website is an online guide to Germany, which gives a user, who wants to travel, touristic informations about Germany, so one has a better idea of how Germany is. 
+To conclude, this website is an online guide to Germany, which gives a user, who wants to travel, touristic information about Germany, so one has a better idea of how the country is. 
 
-1. As a tourist, I would like to know basic informations about the country, which I will be visiting
-2. As a tourist, I would like to get to know a basic idea about the country's culture and traditions
-3. As a tourist, I would like to know what nice places and attractions there are for tourists to go to and what food there is to eat
+1. As a tourist, I would like to know basic information about the country, which I will be visiting
+2. As a tourist, I would like to know a basic idea about the country's culture and traditions
+3. As a tourist, I would like to know what nice places and attractions there are for tourists to go to and what popular food there is to eat
 4. As a tourist, I would like to see beautiful and lively pictures of city- and landscapes and the names of those places
-5. As a tourist, I would like to learn important words that are utilized in the national language of that country
+5. As a tourist, I would like to learn important words that are generally utilized in the national language of that country
 6. As a tourist, I would like to know what nice shelter I could have, when visiting that country
 7. As a tourist, I would like to know emergency numbers, which I could use in emergency situations
 8. As a tourist, I would like to learn important words in the country's national language that I could use to communicate in emergency situations
@@ -38,58 +38,59 @@ To conclude, this website is an online guide to Germany, which gives a user, who
 
 * Please find my first paper and pen mockups for the first desgin of my website [here](https://github.com/Rian1010/Germany-Online-Guide/tree/master/Mockups/first-design)
 * Please find my final paper and pen mockups for the first desgin of my website [here](https://github.com/Rian1010/Germany-Online-Guide/tree/master/Mockups/final-design)
-* One more section with information about another hotel was added in hotels.html, than planned in the paper and pen mockup for this page, in order to have more content on it
+* One more section with information about another hotel was added in hotels.html, in order to have more content on it, but is not shown in the final paper and pen mockup for this page because I originally thought that four examples of sumptuous German hotels would suffice
 
 ## Features
 
-### Existing Features
+### Existing features
 
 #### index.html
 
 * Eye catching front page
-    * A beautiful cityscape of Frankfurt with inviting text for a user to discover interesting informations about Germany
+    * A beautiful cityscape of Frankfurt with inviting text for a user to discover interesting information about Germany
 * Information on the country and its traditional food and culture
-    * Sections with texts with informations about Germany, the German language, culture and traditions, and also historical and architectural images are displayed in a carousel
+    * Sections with texts with information on Germany, the German language and the culture 
+    * Traditional food and historical and architectural images are displayed in carousels
 * Pictures of beautiful German places
-    * A link to the gallery with German images that are on the media page, is shown on a picture of a landscape
-* Informations of interesting touristic places to visit
-    * Informations of popular German restaurants, shopping street and good tours are offered with further linked websites for assistance of more informations and bookings
+    * Text, which links to the gallery, in media.html, is shown on a picture of a landscape
+* Information of interesting touristic places to visit
+    * Information of popular German restaurants, shopping streets and good tours are offered with further linked websites for assistance with more information and bookings
 
 #### media.html
 
 * Photo gallery
-    * Images of modern and beautiful places in Germany that are pleasing to the eye
-* Audio file of the Germany national anthem
-    * The national anthem, which plays a big role in the culture, can be listened to. 
+    * Images of modern and beautiful places in Germany that are pleasing for the eye to see
+* Audio file of the German national anthem
+    * The national anthem, which plays a big role in the culture, can be listened to
 * German videos 
-    * Videos of more exciting German places are shown in the long videos and a user could even learn 40 common German words, which they could use as tourists in Germany by watching one of those videos
+    * Videos of more exciting German places are shown in two long videos and a user could even learn 40 common German words, which one could use as tourists in Germany by watching the last video
 
 #### hotels.html
 
 * A list of hotels
-    * A user can find a few examples of luxurious German hotels and are lead to other websites for more informations and bookings
+    * A user can find a few examples of luxurious German hotels and are lead to other websites for more information and bookings
 
 #### emergency-contacts.html
 
 * A list of emergency numbers
-    * There are important emergency numbers, which a user could utilize in urgent situations, in Germany
+    * There are important emergency numbers, which a user could use in urgent situations, in Germany
 * A list of German emergency words
-    * Tourists could use those words, in emergency situations, in Germany, if they learn them or have them at hand
+    * Tourists could make use of those words, in emergency situations, in Germany, if they learn them or have them at hand
 
 ### Features to be implemented in the future
 
 * Javascript
-    * To have a section to submit a form that indicates the amount of people and their ages that require hotel rooms, which would then link to a website 
+    * To have a section to submit a form that indicates the amount of people and their ages that require hotel rooms, which would then link to a website that gives them the options that would suit them best
 
 ### Features left to implement
 
 * None
 
 
-## Tech Used
+## Tech used
 
 * HTML
-    * This was used as a markup for the formating of the page layouts, through HTML tags
+    * This was used as a markup for the formatting of the page layouts, through HTML tags
 
 * CSS
     * This was used in order to style the HTML elements of the webpage
@@ -110,38 +111,40 @@ To conclude, this website is an online guide to Germany, which gives a user, who
         
 * HTML Validator
     * [HTML Validator Link](https://validator.w3.org/nu/?doc=https%3A%2F%2Fgermany-rian1010.c9users.io%2Femergency-contacts.html)
-        * This was used to check mistakes I made in my HTML codes
+        * This was used to check what mistakes I made in my HTML codes
 
 * CSS Validator
     * [CSS Validator Link](https://jigsaw.w3.org/css-validator/)   
-        * This was used to check mistakes I made in my CSS codes
+        * This was used to check what mistakes I made in my CSS codes
 
 
 ## Testing
 
 ### Overall
-I tested some design for the website, throughout the procedure of my project and improved them along the way. 
+I tested out different designs for some of the sections of the website, throughout the procedure of the project and improved them along the way. 
 
 ### index.html
 
 * Get to the homepage
-* Click on the carousel indicators, which are the lines at the bottom of each picture that are supposed to make it possible for a user to view multiple pictures
-* Try it out on different sizes and browsers because then the column sizes change
-* Click on 'here', which is in the text of a big landscape image, above the 'Informations' section, in order to open up the 'Media' page
-* Click on 'here', which there are three of, in the information section to open up three linked sites on new tabs
+* Click on the carousel indicators, which are the lines at the bottom of each picture, in both carousels
+* Make sure that each line displays a different picture
+* Try it out on different screen sizes, so that the column sizes change
+* Click on 'here', which is in the text of a big landscape image, above the 'Information' section, in order to open up the 'Media' page
+* Click on 'here', which there are three of, in the 'Information' section to open up the three linked sites on new tabs
+* Repeat these steps on a different browser
 
 ### media.html
 
 * Go to the 'Media' page 
 * Click on the pictures
-* Press on the right and left arrows
+* Press on the right and left arrows to see the next or previous image
 * Scroll down the page to the audio file
 * Play the audio file
 * Have the national anthem be played aloud
 * Scroll down to the videos 
 * Click on each video and wait for them to load
 * Have a friend check the same things
-* Repeat these on a different browser
+* Repeat these steps on a different browser
 
 ### hotels.html
 
@@ -154,7 +157,7 @@ I tested some design for the website, throughout the procedure of my project and
 * Go to the 'Emergency Contacts' page
 * Click on 'here', which is in the text, under the emergency numbers, in order to have a website opened up on a new tab
 
-### Navigation and Footer
+### Navigation and footer
 
 * Navigation
     * Click on each menu item to make sure that they work
@@ -162,35 +165,34 @@ I tested some design for the website, throughout the procedure of my project and
     * Have a friend try it out, too
 * Footer
     * Social Media Links
-        * Click on each icon to make sure that each link opens on a separate tab
-        * Make sure that the expected links open up
+        * Click on each icon to make sure that each expected link opens on a separate tab
         * Have a friend try it out, as well
     * Contacts 
         * Click on 'Emergency Contacts' and make sure it leads to emergency-contacts.html
         * Have a friend try it out, too
 
-### Mobile Responsiveness
+### Mobile responsiveness
 
 * The live preview was used to check the devtools and the different screen sizes of each page
 
 
-## Bugs/Problems encountered
+## Bugs/problems encountered
 
 * Mobile responsiveness had some issues, when viewing 'inspect' to see the different screen sizes
-    * The way I set the backgrounds of some sections caused them not to fill the entire screen on different devices, so I changed the codes
+    * The way I set the backgrounds of some sections caused those not to fill the entire screen on different screen sizes, so I changed the codes
 * My mentor told me that my bootstrap codes were formated wrongly
     * I repositioned the rows, columns and classes for the backgrounds of almost each section, in the HTML codes
 
 
 ## Deployment
 I pushed my Cloud9 workspace to my Github repository called Germany-Online-Guide, through the command line. I did not use it so often, at the beginning of my project
-however, later as I kept progressing through the project, I was told to use it, after almost each change I make. Therefore, I have done so, until I finished the project. 
+however, as I kept progressing through the project, I was told to use it, after almost each change I made. Therefore, I have done so, until I finished the project. 
 My Github repository can be found [here](https://github.com/Rian1010/Germany-Online-Guide) and the link, at which my website is published is [here](https://rian1010.github.io/Germany-Online-Guide/).
 
 ### Steps on how to push it:
 1. git add .
-2. git status (to check, if the right file/s have been added or not)
-3. git commit -m "text input of the description of what I have changed"
+2. git status (to check, if the correct file/s were added or not)
+3. git commit -m "a short description of what was changed"
 4. git remote add origin
 5. git push -u origin master
 6. Insert Github username
@@ -200,9 +202,8 @@ My Github repository can be found [here](https://github.com/Rian1010/Germany-Onl
 1. Go to the github repository
 2. Click on 'Settings'
 3. Scroll down to the 'Github Pages' section
-4. Set the source to master branch
+4. Set the source to 'master branch'
 5. The link, at which the site is published should appear
-6. Click save
 
 
 ## Credits
@@ -217,7 +218,7 @@ My Github repository can be found [here](https://github.com/Rian1010/Germany-Onl
 #### Front page
 * The photo of Frankfurt, on the front page of the homepage was obtained from [Pixabay](https://pixabay.com/pl/photos/frankfurt-nad-menem-niemcy-2263351/)
 
-#### Image in the 'About Germany' Section
+#### Image in the 'About Germany' section
 * The image of Germany with the colors of the German flag was obtained from [Wikipedia](https://en.wikipedia.org/wiki/File:Flag_map_of_Germany.svg)
 
 #### The food carousel
@@ -239,12 +240,12 @@ My Github repository can be found [here](https://github.com/Rian1010/Germany-Onl
     * [Pixabay](https://pixabay.com/photos/dresden-germany-terrassenufer-2362953/)
 
 #### Image in the 'Why Travel to Germany?' section
-* The image was obtained from a friend, who had this picture taken by his co-worker
+* The image was obtained from a friend, who had his picture taken by his co-worker
 
-#### Image above the 'Informations' section
+#### Image above the 'Information' section
 * The photo was taken by me
 
-#### Gallery in media.html
+#### The gallery in media.html
 * The photos in the gallery were obtained from the following websites:
     * [Wikimedia](https://commons.wikimedia.org/wiki/File:Reichstag_May_09.jpg)
     * [Wikipedia](https://de.wikipedia.org/wiki/Datei:Wasserspiele_Kassel-Wilhelmsh%C3%B6he_2011_von_oben-1.jpg)
@@ -256,7 +257,7 @@ My Github repository can be found [here](https://github.com/Rian1010/Germany-Onl
     * The picture of Offenbach am Main was taken by me
     * [Pixabay](https://pixabay.com/de/photos/m%C3%BCnchen-olympiastadion-olympiapark-2516492/)
 
-#### Audio File in media.html
+#### The audio file in media.html
 * The audio file was obtained from [Archive](https://archive.org/details/GermanNationalAnthemDasDeutschlandliedDEEN9)
 
 #### Videos in media.html
@@ -279,5 +280,5 @@ My Github repository can be found [here](https://github.com/Rian1010/Germany-Onl
 
 
 ## Acknowledgements
-* Thank you to my mentor, Antonija Simic, who gave me examples of how modern landing pages look like and assisted and inspired me with the design of the webpage
-* Thank you to the tutors, Nakita and Niel for helping me with problems I had
+* Thank you to my mentor, Antonija Simic, who gave me examples of how modern landing pages look like and inspired me with the design of the webpage
+* Thank you to the tutors, Nakita and Niel for helping me with the problems I had

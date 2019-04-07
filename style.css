@@ -478,7 +478,7 @@ h3 {
 
 .foodCarouselSize {
     width: 100%;
-    height: 350px;
+    height: 375px;
 }
 
 @media (min-width: 1200px) {
@@ -504,13 +504,13 @@ h3 {
 
 .cultureCarouselSize {
     width: 100%;
-    height: 350px;
+    height: 375px;
 }
 
 @media (min-width: 1200px) {
     .cultureCarouselSize {
-    height: 500px;
-}
+        height: 500px;
+    }
 }
 
 .culture-image-sizes {
@@ -1123,8 +1123,20 @@ h3 {
 }
 
 .vehicle-image-container {
-    height: 550px;
+    height: 350px;
     width: 100%;
+}
+
+@media (min-width: 576px) {
+    .vehicle-image-container {
+        height: 400px;
+    }
+}
+
+@media (min-width: 768px) {
+    .vehicle-image-container {
+        height: 550px;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -1142,8 +1154,20 @@ h3 {
 }
 
 .notfall-image-container {
-    height: 550px;
+    height: 350px;
     width: 100%;
+}
+
+@media (min-width: 576px) {
+    .notfall-image-container {
+        height: 400px;
+    }
+}
+
+@media (min-width: 768px) {
+    .notfall-image-container {
+        height: 550px;
+    }
 }
 
 @media (min-width: 1200px) {
